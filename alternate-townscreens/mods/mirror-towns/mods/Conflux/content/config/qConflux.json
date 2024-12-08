@@ -1,0 +1,53 @@
+{
+	"core:conflux" :
+	{
+		"town" :
+		{
+			"structures" :
+			{
+				"extraAnimation2":{ "animation" : "TBELEXT5.def", "x" : 74, "y" : 183,  "z" : -1 },
+				"extraAnimation": { "animation" : "TBELEXT1.def", "x" : 114,  "y" : 218 },
+				"mageGuild1":     { "animation" : "TBELMAGE.def", "x" : 509, "y" : 58,  "z" : 4,  "border" : "TOELMAGE.bmp", "area" : "TZELMAGE.bmp" },
+				"mageGuild2":     { "animation" : "TBELMAG2.def", "x" : 509, "y" : 58,  "z" : 4,  "border" : "TOELMAG2.bmp", "area" : "TZELMAG2.bmp" },
+				"mageGuild3":     { "animation" : "TBELMAG3.def", "x" : 509, "y" : 58,  "z" : 4,  "border" : "TOELMAG3.bmp", "area" : "TZELMAG3.bmp" },
+				"mageGuild4":     { "animation" : "TBELMAG4.def", "x" : 509, "y" : 58,  "z" : 4,  "border" : "TOELMAG4.bmp", "area" : "TZELMAG4.bmp" },
+				"mageGuild5":     { "animation" : "TBELMAG5.def", "x" : 509, "y" : 58,  "z" : 4,  "border" : "TOELMAG5.bmp", "area" : "TZELMAG5.bmp" },
+				"tavern":         { "animation" : "TBELTVRN.def", "x" : 175, "y" : 203, "z" : 1,  "border" : "TOELTVRN.bmp", "area" : "TZELTVRN.bmp" },
+				"shipyard":       { "animation" : "TBELDOCK.def", "x" : 453, "y" : 215, "z" : 2,  "border" : "TOELDOCK.bmp", "area" : "TZELDOCK.bmp" },
+				"fort":           { "animation" : "TBELCSTL.def", "x" : 92, "y" : 101, "z" : -1, "border" : "TOELCSTL.bmp", "area" : "TZELCSTL.bmp" },
+				"citadel":        { "animation" : "TBELCAS2.def", "x" : 92, "y" : 101, "z" : -1, "border" : "TOELCAS2.bmp", "area" : "TZELCAS2.bmp" },
+				"castle":         { "animation" : "TBELCAS3.def", "x" : 92, "y" : 101, "z" : -1, "border" : "TOELCAS3.bmp", "area" : "TZELCAS3.bmp" },
+				"villageHall":    { "animation" : "TBELHALL.def", "x" : 567,  "y" : 164, "z" : 5,  "border" : "TOELHALL.bmp", "area" : "TZELHALL.bmp" },
+				"townHall":       { "animation" : "TBELHAL2.def", "x" : 566,   "y" : 165, "z" : 5,  "border" : "TOELHAL2.bmp", "area" : "TZELHAL2.bmp" },
+				"cityHall":       { "animation" : "TBELHAL3.def", "x" : 566,   "y" : 165, "z" : 5,  "border" : "TOELHAL3.bmp", "area" : "TZELHAL3.bmp" },
+				"capitol":        { "animation" : "TBELHAL4.def", "x" : 566,   "y" : 164, "z" : 5,  "border" : "TOELHAL4.bmp", "area" : "TZELHAL4.bmp" },
+				"marketplace":    { "animation" : "TBELMARK.def", "x" : 252, "y" : 216, "z" : 4,  "border" : "TOELMARK.bmp", "area" : "TZELMARK.bmp" },
+				"resourceSilo":   { "animation" : "TBELSILO.def", "x" : 360, "y" : 171, "z" : 2,  "border" : "TOELSILO.bmp", "area" : "TZELSILO.bmp" },
+				"blacksmith":     { "animation" : "TBELBLAK.def", "x" : 262, "y" : 151, "z" : 1,  "border" : "TOELBLAK.bmp", "area" : "TZELBLAK.bmp" },
+				"special1":       { "animation" : "TBELSPEC.def", "x" : 398, "y" : 246, "z" : 4,  "border" : "TOELSPEC.bmp", "area" : "TZELSPEC.bmp" },
+				"horde1":         { "animation" : "TBELHRD1.def", "x" : 0, "y" : 250, "border" : "TOELHRD1.bmp", "area" : "TZELHRD1.bmp", "hidden" : true },
+				"horde1Upgr":     { "animation" : "TBELHRD2.def", "x" : 0, "y" : 250, "border" : "TOELHRD2.bmp", "area" : "TZELHRD2.bmp", "hidden" : true, "builds" : "horde1" },
+				"ship":           { "animation" : "TBELBOAT.def", "x" : 453, "y" : 215, "z" : 2,  "border" : "TOELBOAT.bmp", "area" : "TZELBOAT.bmp", "hidden" : true },
+				"special2":       { "animation" : "TBELEXT6.def", "x" : 511, "y" : 170, "z" : 3,  "border" : "TOELEXT6.bmp", "area" : "TZELEXT6.bmp" },
+				"grail":          { "animation" : "TBELHOLY.def", "x" : 198, "y" : 2,   "border" : "TOELHOLY.bmp", "area" : "TZELHOLY.bmp" },
+				"extraTownHall":  { "animation" : "TBELEXT2.def", "x" : 76, "y" : 205 },
+				"extraCityHall":  { "animation" : "TBELEXT3.def", "x" : 50, "y" : 223, "z" : 1 },
+				"extraCapitol":   { "animation" : "TBELEXT4.def", "x" : 109,   "y" : 252, "z" : 6 },
+				"dwellingLvl1":   { "animation" : "TBELDW_0.def", "x" : 0, "y" : 250, "border" : "TOELDW_0.bmp", "area" : "TZELDW_0.bmp" },
+				"dwellingLvl2":   { "animation" : "TBELDW_1.def", "x" : 80, "y" : 50,  "border" : "TOELDW_1.bmp", "area" : "TZELDW_1.bmp" },
+				"dwellingLvl3":   { "animation" : "TBELDW_2.def", "x" : 11, "y" : 210, "z" : -1, "border" : "TOELDW_2.bmp", "area" : "TZELDW_2.bmp" },
+				"dwellingLvl4":   { "animation" : "TBELDW_3.def", "x" : 603, "y" : 131, "z" : -1, "border" : "TOELDW_3.bmp", "area" : "TZELDW_3.bmp" },
+				"dwellingLvl5":   { "animation" : "TBELDW_4.def", "x" : 466, "y" : 168, "z" : -1, "border" : "TOELDW_4.bmp", "area" : "TZELDW_4.bmp" },
+				"dwellingLvl6":   { "animation" : "TBELDW_5.def", "x" : 320, "y" : 283, "z" : 2,  "border" : "TOELDW_5.bmp", "area" : "TZELDW_5.bmp" },
+				"dwellingLvl7":   { "animation" : "TBELDW_6.def", "x" : 43,  "y" : 16,  "z" : -2, "border" : "TOELDW_6.bmp", "area" : "TZELDW_6.bmp" },
+				"dwellingUpLvl1": { "animation" : "TBELUP_0.def", "x" : 0, "y" : 250, "border" : "TOELUP_0.bmp", "area" : "TZELUP_0.bmp" },
+				"dwellingUpLvl2": { "animation" : "TBELUP_1.def", "x" : 80, "y" : 50,  "border" : "TOELUP_1.bmp", "area" : "TZELUP_1.bmp" },
+				"dwellingUpLvl3": { "animation" : "TBELUP_2.def", "x" : 11, "y" : 210, "z" : -1, "border" : "TOELUP_2.bmp", "area" : "TZELUP_2.bmp" },
+				"dwellingUpLvl4": { "animation" : "TBELUP_3.def", "x" : 603, "y" : 131, "z" : -1, "border" : "TOELUP_3.bmp", "area" : "TZELUP_3.bmp" },
+				"dwellingUpLvl5": { "animation" : "TBELUP_4.def", "x" : 466, "y" : 168, "z" : -1, "border" : "TOELUP_4.bmp", "area" : "TZELUP_4.bmp" },
+				"dwellingUpLvl6": { "animation" : "TBELUP_5.def", "x" : 320, "y" : 283, "z" : 2,  "border" : "TOELUP_5.bmp", "area" : "TZELUP_5.bmp" },
+				"dwellingUpLvl7": { "animation" : "TBELUP_6.def", "x" : 601,  "y" : 0,   "z" : -2, "border" : "TOELUP_6.bmp", "area" : "TZELUP_6.bmp" }
+			}
+		}
+	}
+}

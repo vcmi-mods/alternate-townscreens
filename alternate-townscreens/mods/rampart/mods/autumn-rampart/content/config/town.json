@@ -1,0 +1,88 @@
+{
+	"core:rampart" : {
+		"creatureBackground" :
+		{
+			"120px" : "units/CRBKGRAM120.bmp",
+			"130px" : "units/CRBKGRAM.bmp"
+		},
+		"town" : {			
+			"structures" :
+			{
+				"extraAnimation": { "animation" : "town/build/TBRMEXT2.def", "x" : 327, "y" : 236 },
+				"mageGuild1":     { "animation" : "town/build/TBRMMAGE.def", "x" : 454, "y" : 200, "z" : -1, "border" : "TORMAG1.bmp",  "area" : "TZRMAG1.bmp"},
+				"mageGuild2":     { "animation" : "town/build/TBRMMAG2.def", "x" : 438, "y" : 178, "z" : -1, "border" : "TORMAG2.bmp",  "area" : "TZRMAG2.bmp"},
+				"mageGuild3":     { "animation" : "town/build/TBRMMAG3.def", "x" : 418, "y" : 153, "z" : -1, "border" : "TORMAG3.bmp",  "area" : "TZRMAG3.bmp"},
+				"mageGuild4":     { "animation" : "town/build/TBRMMAG4.def", "x" : 406, "y" : 129, "z" : -1, "border" : "TORMAG4.bmp",  "area" : "TZRMAG4.bmp"},
+				"mageGuild5":     { "animation" : "town/build/TBRMMAG5.def", "x" : 384, "y" : 104, "z" : -1, "border" : "TORMAG5.bmp",  "area" : "TZRMAG5.bmp"},
+				"tavern":         { "animation" : "town/build/TBRMTVRN.def", "x" : 181, "y" : 229, "z" : 1,  "border" : "TORTAV.bmp",   "area" : "TZRTAV.bmp" },
+				"fort":           { "animation" : "town/build/TBRMCSTL.def", "x" : 63,  "y" : 25,  "z" : -2, "border" : "TORCAS1.bmp",  "area" : "TZRCAS1.bmp"},
+				"citadel":        { "animation" : "town/build/TBRMCAS2.def", "x" : 79,  "y" : 18,  "z" : -2, "border" : "TORCAS3.bmp",  "area" : "TZRCAS3.bmp" },
+				"castle":         { "animation" : "town/build/TBRMCAS3.def", "x" : 79,  "y" : 18,  "z" : -2, "border" : "TORCAS2.bmp",  "area" : "TZRCAS2.bmp" },
+				"villageHall":    { "animation" : "town/build/TBRMHALL.def", "x" : 565, "y" : 216, "border" : "TORHAL1.bmp",  "area" : "TZRHAL1.bmp" },
+				"townHall":       { "animation" : "town/build/TBRMHAL2.def", "x" : 538, "y" : 187, "border" : "TORHAL2.bmp",  "area" : "TZRHAL2.bmp" },
+				"cityHall":       { "animation" : "town/build/TBRMHAL3.def", "x" : 538, "y" : 187, "border" : "TORHAL3.bmp",  "area" : "TZRHAL3.bmp" },
+				"capitol":        { "animation" : "town/build/TBRMHAL4.def", "x" : 534, "y" : 187, "border" : "TORHAL4.bmp",  "area" : "TZRHAL4.bmp" },
+				"marketplace":    { "animation" : "town/build/TBRMMARK.def", "x" : 129, "y" : 301, "z" : 3,  "border" : "TORMRK1.bmp",  "area" : "TZRMRK1.bmp" },
+				"resourceSilo":   { "animation" : "town/build/TBRMSILO.def", "x" : 245, "y" : 324, "z" : 4,  "border" : "TORMRK2.bmp",  "area" : "TZRMRK2.bmp" },
+				"blacksmith":     { "animation" : "town/build/TBRMBLAK.def", "x" : 558, "y" : 105, "z" : -3, "border" : "TORAID.bmp",   "area" : "TZRAID.bmp" },
+				"special1":       { "animation" : "town/build/TBRMSPEC.def", "x" : 555, "y" : 297, "border" : "TORGAR1A.bmp", "area" : "TZRGAR1A.bmp" },
+				"horde1":         { "animation" : "town/build/TBRMHRD1.def", "x" : 0,   "y" : 154, "border" : "TORDWF1H.bmp", "area" : "TZRDWF1H.bmp", "hidden" : true },
+				"horde1Upgr":     { "animation" : "town/build/TBRMHRD2.def", "x" : 0,   "y" : 143, "border" : "TORDWF2H.bmp", "area" : "TZRDWF2H.bmp", "hidden" : true, "builds" : "horde1" },
+				"special2":       { "animation" : "town/build/TBRMEXT0.def", "x" : 555, "y" : 297, "z" : 2, "border" : "TORGAR2A.bmp", "area" : "TZRGAR2A.bmp"  },
+				"special3":       { "animation" : "town/build/TBRMEXT1.def", "x" : 0,   "y" : 181, "z" : 1, "border" : "TORDWFT.bmp",  "area" : "TZRDWFT.bmp"  },
+				"horde2":         { "animation" : "town/build/TBRMHRD3.def", "x" : 47,  "y" : 142, "z" : -1, "border" : "TORTRE1H.bmp", "area" : "TZRTRE1H.bmp", "hidden" : true },
+				"horde2Upgr":     { "animation" : "town/build/TBRMHRD4.def", "x" : 47,  "y" : 142, "z" : -1, "border" : "TORTRE2H.bmp", "area" : "TZRTRE2H.bmp", "hidden" : true, "builds" : "horde2" },
+				"grail":          { "animation" : "town/build/TBRMHOLY.def", "x" : 0,   "y" : 54,  "z" : -1, "border" : "TORHOLY.bmp",  "area" : "TZRHOLY.bmp"},
+				"extraTownHall":  { "animation" : "town/build/TBRMEXT3.def", "x" : 293, "y" : 235 },
+				"extraCityHall":  { "animation" : "town/build/TBRMEXT4.def", "x" : 295, "y" : 191 },
+				"extraCapitol":   { "animation" : "town/build/TBRMEXT5.def", "x" : 260, "y" : 171 },
+				"dwellingLvl1":   { "animation" : "town/build/TBRMDW_0.def", "x" : 0,   "y" : 236, "z" : 2,  "border" : "TORCEN1A.bmp", "area" : "TZRCEN1A.bmp"},
+				"dwellingLvl2":   { "animation" : "town/build/TBRMDW_1.def", "x" : 0,   "y" : 154, "border" : "TORDWF1.bmp",  "area" : "TZRDWF1.bmp" },
+				"dwellingLvl3":   { "animation" : "town/build/TBRMDW_2.def", "x" : 668, "y" : 101, "border" : "TORELF1.bmp",  "area" : "TZRELF1.bmp" },
+				"dwellingLvl4":   { "animation" : "town/build/TBRMDW_3.def", "x" : 287, "y" : 73,  "z" : -1, "border" : "TORPEG1A.bmp", "area" : "TZRPEG1A.bmp" },
+				"dwellingLvl5":   { "animation" : "town/build/TBRMDW_4.def", "x" : 68,  "y" : 146, "z" : -1, "border" : "TORTRE1.bmp",  "area" : "TZRTRE1.bmp" },
+				"dwellingLvl6":   { "animation" : "town/build/TBRMDW_5.def", "x" : 362, "y" : 90,  "z" : -2, "border" : "TORUNI1.bmp",  "area" : "TZRUNI1.bmp" },
+				"dwellingLvl7":   { "animation" : "town/build/TBRMDW_6.def", "x" : 502, "y" : 27,  "z" : -5, "border" : "TORDR1AA.bmp", "area" : "TZRDR1AA.bmp" },
+				"dwellingUpLvl1": { "animation" : "town/build/TBRMUP_0.def", "x" : 0,   "y" : 236, "z" : 2,  "border" : "TORCEN2A.bmp", "area" : "TZRCEN2A.bmp" },
+				"dwellingUpLvl2": { "animation" : "town/build/TBRMUP_1.def", "x" : 0,   "y" : 143, "border" : "TORDWF2.bmp",  "area" : "TZRDWF2.bmp" },
+				"dwellingUpLvl3": { "animation" : "town/build/TBRMUP_2.def", "x" : 665, "y" : 101, "border" : "TORELF2.bmp",  "area" : "TZRELF2.bmp" },
+				"dwellingUpLvl4": { "animation" : "town/build/TBRMUP_3.def", "x" : 287, "y" : 28,  "z" : -1, "border" : "TORPEG2A.bmp", "area" : "TZRPEG2A.bmp" },
+				"dwellingUpLvl5": { "animation" : "town/build/TBRMUP_4.def", "x" : 63,  "y" : 146, "z" : -1, "border" : "TORTRE2.bmp",  "area" : "TZRTRE2.bmp" },
+				"dwellingUpLvl6": { "animation" : "town/build/TBRMUP_5.def", "x" : 362, "y" : 90,  "z" : -2, "border" : "TORUNI2.bmp",  "area" : "TZRUNI2.bmp" },
+				"dwellingUpLvl7": { "animation" : "town/build/TBRMUP_6.def", "x" : 502, "y" : 5,   "z" : -5, "border" : "TORDR2AA.bmp", "area" : "TZRDR2AA.bmp"}
+			},
+			"buildingsIcons" : "town/HALLRAMP.def",
+			"icons" : {
+				"fort" : {
+					"built" : {
+						"large" : "town/icons/itptram2.bmp",
+						"small" : "town/icons/itpramp2.bmp"
+					},
+					"normal" : {
+						"small" : "town/icons/itpramp1.bmp", 
+						"large" : "town/icons/itptramp.bmp" 
+					}
+				},
+				"village" : {
+					"built" : {
+						"large" : "town/icons/itptram4.bmp",
+						"small" : "town/icons/itpramp4.bmp"
+					},
+					"normal" : {
+						"small" : "town/icons/itpramp3.bmp", 
+						"large" : "town/icons/itptram3.bmp" 
+					}
+				}
+			},
+			"musicTheme" : [ "music/Rampart.mp3" ],
+			"buildings" :
+			{
+				"special2":       { "name": "Fountain of Fortune", "description": "The Fountain of Fortune increases the luck of the garrison hero by +2 when defending against a siege."},
+				"dwellingLvl3":   { "name": "Homestead", "description": "The Homestead allows you to recruit Wood Elves."},
+				"dwellingLvl4":   { "name": "Crystal Column", "description": "The Crystal Column allows you to recruit Pegasi."},				
+				"dwellingUpLvl3": { "name": "Homestead", "description": "The Upg. Homestead allows you to recruit Grand Elves."},
+				"dwellingUpLvl4": { "name": "Crystal Column", "description": "The Upg. Crystal Column allows you to recruit Silver Pegasi."}
+			}
+		}
+	}
+}

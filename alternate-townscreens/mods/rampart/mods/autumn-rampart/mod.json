@@ -1,0 +1,38 @@
+{
+	"name" : "Autumn Rampart",
+	"description" : "Alternative, darker Rampart",
+	"author" : "Irhak alias Kreegan",
+	"version" : "0.93",
+	"modType" : "Graphical",	
+	"contact" : "http://www.forum.acidcave.net/profile.php?UID=1646",	
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"keepDisabled" : true,
+	"conflicts" :
+	[
+		"alternate-townscreens.rampart.another-rampart",
+		"alternate-townscreens.mirror-towns.rampart",
+		"lotrd-townscreens.rampart"
+	],
+	"softDepends" : [
+		"hota.heroes3datapatch",
+		"hota.newgraphics"
+	],
+	"compatibility" :
+	{
+		"min" : "1.0.0"
+	},
+	"changelog" :
+	{
+		"0.93"   : [ "Fixed bad transparency pixels" ],
+		"0.92"   : [ "Fixed problem with map editor" ],
+		"0.91"   : [ "Adds Fountain of Fortune def", "Small fixes" ],
+		"0.9"    : [ "Initial release" ]
+	},
+	"factions" : [ "config/town.json" ],	
+	"creatures" :[ "config/creatures/creatures.json" ],
+	"czech" : {
+		"name" : "Podzimní Bašta",
+		"description" : "Tato modifikace přenese vzhled Bašty do podzimního obdodí"
+	}
+}

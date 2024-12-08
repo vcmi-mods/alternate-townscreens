@@ -1,0 +1,17 @@
+{
+	"name" : "Castle",
+	"description" : "Alternative Castle views - Red or Snow one",
+	"author" : "",
+	"version" : "1.0",
+	"modType" : "Graphical",	
+	"contact" : "",
+	"keepDisabled" : true,
+	"changelog" :
+	{
+		"1.0"   : [ "Initial release" ]
+	},
+	"czech" : {
+		"name" : "Hrad",
+		"description" : "Alternativní vzhledy pro Hrad"
+	}
+}

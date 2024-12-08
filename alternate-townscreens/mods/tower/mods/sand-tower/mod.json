@@ -1,0 +1,37 @@
+{
+	"name" : "Sand Tower",
+	"description" : "Sand Tower based on mod by totkotoriy, crated by J. M. Sower",
+	"version" : "1.1",
+	"author" : "J. M. Sower",
+	"contact" : "http://forum.vcmi.eu/viewtopic.php?p=11046&sid=c709e37f1a8d8b91d286928e90cf4a8a#11046",
+	"modType" : "Graphical",
+	"keepDisabled" : true,
+	"changelog" :
+	{
+		"1.1" : [ "Fixes" ],
+		"1.0" : [ "Initial release" ]
+	},
+	"conflicts" :
+	[
+		"alternate-townscreens.mirror-towns.tower",
+		"alternate-townscreens.tower.snow-in-tower",
+		"lotrd-townscreens.tower"
+	],
+	"softDepends" : [
+		"hota.heroes3datapatch",
+		"hota.newgraphics"
+	],
+	"creatures" :
+	[
+		"config/gold.json",
+		"config/stone.json"
+	],
+	"factions" :
+	[
+		"config/sandTower.json"	
+	],
+	"czech" : {
+		"name" : "Písečná Věž",
+		"description" : "Tato modifikace přenese vzhled Věž do pouště"
+	}
+}

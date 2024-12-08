@@ -1,0 +1,40 @@
+{
+    "core:castle" : 
+    { 
+        "creatureBackground" : 
+        { 
+            "120px" : "castle/creature-bg-120px.bmp", 
+            "130px" : "castle/creature-bg-130px.bmp"
+        }, 
+		"nativeTerrain": "snow",
+        "town" : 
+        { 
+        "buildingsIcons": "castle/town-hall.def",     
+        "guildWindow": "castle/town-screen/mage-guild.bmp", 
+        "townBackground": "castle/town-screen/background.bmp", 
+        "musicTheme" : [ "music/factions/Whispers_of_Winter" ],
+		"mapObject" : {
+			"templates" : 
+            {
+				"capitol" : { "animation" : "castle/adventure-map/town/town-capitol.def" },
+				"castle" :  { "animation" : "castle/adventure-map/town/town-castle.def" },
+				"village" :  { "animation" : "castle/adventure-map/town/town-village.def" }
+            }
+		},
+          
+        "icons" : 
+            { 
+				"village" : 
+		{
+			"normal" : {"small" : "castle/icons/hall-small.bmp", "large" : "castle/icons/hall-big.bmp" },
+			"built"  : {"small" : "castle/icons/hall-builded-small.bmp", "large" : "castle/icons/hall-builded-big.bmp" }
+		},
+                "fort" :  
+                { 
+            "normal" : {"small" : "castle/icons/fort-small.bmp", "large" : "castle/icons/fort-big.bmp" }, 
+            "built"  : {"small" : "castle/icons/fort-builded-small.bmp", "large" : "castle/icons/fort-builded-big.bmp" } 
+                }
+            }            
+        }
+    }     
+} 

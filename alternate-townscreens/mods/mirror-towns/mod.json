@@ -1,0 +1,16 @@
+{
+	"name" : "Mirrored towns",
+	"description" : "Standard towns in the mirror",
+	"author" : "feanor, Bes",
+	"version" : "1.0",
+	"modType" : "Graphical",	
+	"contact" : "",
+	"changelog" :
+	{
+		"1.0"   : [ "Initial release" ]
+	},
+	"czech" :{
+		"name" : "Zrcadlová města",
+		"description" : "Tato modifikace mění vzhled standardních měst na zrcadlově otočená"
+	}
+}

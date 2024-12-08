@@ -1,0 +1,31 @@
+{
+	"name" : "Necropolis",
+	"description" : "Necropolis in the mirror",
+	"author" : "feanor, Bes",
+	"version" : "1.0",
+	"modType" : "Graphical",	
+	"contact" : "",
+	"changelog" :
+	{
+		"1.0"   : [ "Initial release" ]
+	},
+	"conflicts" : 
+	[
+		"alternate-townscreens.ghost-necropolis",
+		"lotrd-townscreens.necropolis",
+		"tides-of-war.alternative-creatures"
+	],
+	"softDepends" : [
+		"wake-of-gods.heroes3datapatch",
+		"hota.heroes3DataPatch",
+		"hota.newGraphics"
+	],
+	"factions" : 
+	[
+	"config/qNecropolis"
+	],
+	"czech" : {
+		"name" : "Nekropolis",
+		"description" : "Zrcadlově otočený vzhled Nekropolis"
+	}
+}

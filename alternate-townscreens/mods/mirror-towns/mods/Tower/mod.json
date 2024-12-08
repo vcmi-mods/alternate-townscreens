@@ -1,0 +1,31 @@
+{
+	"name" : "Tower",
+	"description" : "Tower in the mirror",
+	"author" : "feanor, Bes",
+	"version" : "1.0",
+	"modType" : "Graphical",	
+	"contact" : "",
+	"changelog" :
+	{
+		"1.0"   : [ "Initial release" ]
+	},
+	"conflicts" : 
+	[
+		"alternate-townscreens.tower.sand-tower",
+		"lotrd-townscreens.tower",
+		"tides-of-war.alternative-creatures"
+	],
+	"softDepends" : [
+		"wake-of-gods.heroes3datapatch",
+		"hota.heroes3DataPatch",
+		"hota.newGraphics"
+	],
+	"factions" : 
+	[
+	"config/qTower"
+	],
+	"czech" : {
+		"name" : "Věž",
+		"description" : "Zrcadlově otočený vzhled Věže"
+	}
+}

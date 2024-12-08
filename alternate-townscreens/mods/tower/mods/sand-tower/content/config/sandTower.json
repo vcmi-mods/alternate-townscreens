@@ -1,0 +1,101 @@
+{
+	"core:tower" :
+	{
+		"nativeTerrain" : "sand",
+		"creatureBackground" :
+		{
+			"120px" : "Sand Tower/TPCASTOW",
+			"130px" : "Sand Tower/CRBKGTOW"
+		},
+
+		"town" :
+		{
+			"mapObject" :
+			{
+				"templates" : {
+					"castle" :  { "animation" : "Sand Tower/AVCtowx0.def" },
+					"village" : { "animation" : "Sand Tower/AVCTOWR0.DEF" },
+					"capitol" : { "animation" : "Sand Tower/AVCTOWZ0.DEF" }
+				}
+			},
+			"structures" :
+			{
+				"mageGuild1":     { "animation" : "Sand Tower/TBTWMAGE.def", "x" : 597, "y" : 82,  "border" : "TOTGLD1.bmp",  "area" : "TZTGLD1.bmp" },
+				"mageGuild2":     { "animation" : "Sand Tower/TBTWMAG2.def", "x" : 593, "y" : 65,  "border" : "TOTGLD2.bmp",  "area" : "TZTGLD2.bmp" },
+				"mageGuild3":     { "animation" : "Sand Tower/TBTWMAG3.def", "x" : 593, "y" : 48,  "border" : "TOTGLD3.bmp",  "area" : "TZTGLD3.bmp" },
+				"mageGuild4":     { "animation" : "Sand Tower/TBTWMAG4.def", "x" : 593, "y" : 31,  "border" : "TOTGLD4.bmp",  "area" : "TZTGLD4.bmp" },
+				"mageGuild5":     { "animation" : "Sand Tower/TBTWMAG5.def", "x" : 593, "y" : 14,  "border" : "TOTGLD5.bmp",  "area" : "TZTGLD5.bmp" },
+				"tavern":         { "animation" : "Sand Tower/TBTWTVRN.def", "x" : 375, "y" : 278, "z" : 1, "border" : "TOTTAV.bmp",   "area" : "TZTTAV.bmp" },
+				"fort":           { "animation" : "Sand Tower/TBTWCSTL.def", "x" : 304, "y" : 0,   "border" : "TOTCAS1.bmp",  "area" : "TZTCAS1.bmp" },
+				"citadel":        { "animation" : "Sand Tower/TBTWCAS2.def", "x" : 301, "y" : 0,   "border" : "TOTCAS2.bmp",  "area" : "TZTCAS2.bmp" },
+				"castle":         { "animation" : "Sand Tower/TBTWCAS3.def", "x" : 301, "y" : 0,   "border" : "TOTCAS3.bmp",  "area" : "TZTCAS3.bmp" },
+				"villageHall":    { "animation" : "Sand Tower/TBTWHALL.def", "x" : 0,   "y" : 259, "z" : 1,  "border" : "TOTHAL1.bmp",  "area" : "TZTHAL1.bmp" },
+				"townHall":       { "animation" : "Sand Tower/TBTWHAL2.def", "x" : 0,   "y" : 220, "z" : 1,  "border" : "TOTHAL2.bmp",  "area" : "TZTHAL2.bmp" },
+				"cityHall":       { "animation" : "Sand Tower/TBTWHAL3.def", "x" : 0,   "y" : 82,  "z" : 1,  "border" : "TOTHAL3.bmp",  "area" : "TZTHAL3.bmp" },
+				"capitol":        { "animation" : "Sand Tower/TBTWHAL4.def", "x" : 0,   "y" : 82,  "z" : 1,  "border" : "TOTHAL4.bmp",  "area" : "TZTHAL4.bmp" },
+				"marketplace":    { "animation" : "Sand Tower/TBTWMARK.def", "x" : 614, "y" : 292, "border" : "TOTMRK.bmp",   "area" : "TZTMRK.bmp" },
+				"resourceSilo":   { "animation" : "Sand Tower/TBTWSILO.def", "x" : 763, "y" : 214, "z" : 3, "border" : "TOTMRKS.bmp",  "area" : "TZTMRKS.bmp" },
+				"blacksmith":     { "animation" : "Sand Tower/TBTWBLAK.def", "x" : 478, "y" : 211, "border" : "TOTBLKA.bmp",  "area" : "TZTBLKA.bmp" },
+				"special1":       { "animation" : "Sand Tower/TBTWSPEC.def", "x" : 674, "y" : 276, "z" : 2, "border" : "TOTMRKA.bmp",  "area" : "TZTMRKA.bmp" },
+				"horde1":         { "animation" : "Sand Tower/TBTWHRD1.def", "x" : 0,   "y" : 47,  "border" : "TOTGAR1H.bmp", "area" : "TZTGAR1H.bmp", "hidden" : true },
+				"horde1Upgr":     { "animation" : "Sand Tower/TBTWHRD2.def", "x" : 0,   "y" : 28,  "border" : "TOTGAR2H.bmp", "area" : "TZTGAR2H.bmp", "hidden" : true, "builds" : "horde1" },
+				"special2":       { "animation" : "Sand Tower/TBTWEXT0.def", "x" : 409, "y" : 82,  "border" : "TOTCASW.bmp",  "area" : "TZTCASW.bmp" },
+				"special3":       { "animation" : "Sand Tower/TBTWEXT1.def", "x" : 702, "y" : 115, "border" : "TOTGLDL.bmp",  "area" : "TZTGLDL.bmp" },
+				"special4":       { "animation" : "Sand Tower/TBTWEXT2.def", "x" : 592, "y" : 189, "z" : 1,  "border" : "TOTGLDW.bmp",  "area" : "TZTGLDW.bmp" },
+				"dwellingLvl1":   { "animation" : "Sand Tower/TBTWDW_0.def", "x" : 453, "y" : 221, "z" : 1,  "border" : "TOTGRM1A.bmp", "area" : "TZTGRM1A.bmp" },
+				"dwellingLvl2":   { "animation" : "Sand Tower/TBTWDW_1.def", "x" : 4,   "y" : 46,  "border" : "TOTGAR1.bmp",  "area" : "TZTGAR1.bmp" },
+				"dwellingLvl3":   { "animation" : "Sand Tower/TBTWDW_2.def", "x" : 209, "y" : 177, "z" : 1,  "border" : "TOTGOL1A.bmp", "area" : "TZTGOL1A.bmp" },
+				"dwellingLvl4":   { "animation" : "Sand Tower/TBTWDW_3.def", "x" : 613, "y" : 95,  "border" : "TOTMAG1.bmp",  "area" : "TZTMAG1.bmp" },
+				"dwellingLvl5":   { "animation" : "Sand Tower/TBTWDW_4.def", "x" : 511, "y" : 75,  "border" : "TOTGEN1.bmp",  "area" : "TZTGEN1.bmp" },
+				"dwellingLvl6":   { "animation" : "Sand Tower/TBTWDW_5.def", "x" : 681, "y" : 208, "z" : 2,  "border" : "TOTNAG1.bmp",  "area" : "TZTNAG1.bmp" },
+				"dwellingLvl7":   { "animation" : "Sand Tower/TBTWDW_6.def", "x" : 75,  "y" : 144, "z" : -1, "border" : "TOTTIT1.bmp",  "area" : "TZTTIT1.bmp" },
+				"dwellingUpLvl1": { "animation" : "Sand Tower/TBTWUP_0.def", "x" : 446, "y" : 221, "z" : 1,  "border" : "TOTGRM2A.bmp", "area" : "TZTGRM2A.bmp" },
+				"dwellingUpLvl2": { "animation" : "Sand Tower/TBTWUP_1.def", "x" : 4,   "y" : 28,  "border" : "TOTGAR2.bmp",  "area" : "TZTGAR2.bmp" },
+				"dwellingUpLvl3": { "animation" : "Sand Tower/TBTWUP_2.def", "x" : 209, "y" : 177, "z" : 1,  "border" : "TOTGOL2A.bmp", "area" : "TZTGOL2A.bmp" },
+				"dwellingUp2Lvl3": { "animation" : "Sand Tower/town-screen/buildings/TBTWUP_2Up.def", "x" : 209, "y" : 177, "z" : 1, "border" : "TOTGOL2A.bmp", "area" : "TZTGOL2A.bmp" },
+				"dwellingUpLvl4": { "animation" : "Sand Tower/TBTWUP_3.def", "x" : 613, "y" : 74,  "border" : "TOTMAG2.bmp",  "area" : "TZTMAG2.bmp" },
+				"dwellingUpLvl5": { "animation" : "Sand Tower/TBTWUP_4.def", "x" : 511, "y" : 8,   "border" : "TOTGEN2.bmp",  "area" : "TZTGEN2.bmp" },
+				"dwellingUpLvl6": { "animation" : "Sand Tower/TBTWUP_5.def", "x" : 681, "y" : 157, "z" : 2,  "border" : "TOTNAG2.bmp",  "area" : "TZTNAG2.bmp" },
+				"dwellingUpLvl7": { "animation" : "Sand Tower/TBTWUP_6.def", "x" : 75,  "y" : 91,  "z" : -1, "border" : "TOTTIT2.bmp",  "area" : "TZTTIT2.bmp" }
+			},
+			"townBackground": "Sand Tower/TBTWBACK.bmp",
+			"guildWindow": "Sand Tower/TPMAGETW.bmp",
+			"buildingsIcons": "Sand Tower/HALLTOWR.DEF",
+			"hallSlots":
+			[
+				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
+				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "special3" ], [ "special4" ] ],
+				[ [ "special1" ], [ "special2" ], [ "horde1", "horde1Upgr" ] ],
+				[ [ "dwellingLvl1", "dwellingUpLvl1" ], [ "dwellingLvl2", "dwellingUpLvl2" ], [ "dwellingLvl3", "dwellingUpLvl3", "dwellingUp2Lvl3" ], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
+				[ [ "dwellingLvl5", "dwellingUpLvl5" ], [ "dwellingLvl6", "dwellingUpLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7" ] ]
+			],
+			"creatures" :
+			[
+				["gremlin", "masterGremlin"],
+				["stoneGargoyle", "obsidianGargoyle"],
+				["ironGolem", "stoneGolem", "goldGolem"],
+				["mage", "archMage"],
+				["genie", "masterGenie"],
+				["naga", "nagaQueen"],
+				["giant", "titan"]
+			],
+
+			"buildings" :
+			{
+				"dwellingUp2Lvl3" :
+				{
+					"description" : "Golden Fabric allow to recruit Golden Golems.",
+					"name" : "Golden Fabric",
+					"cost" :
+					{
+						"gems" : 5,
+						"ore" : 5,
+						"gold" : 2500
+					},
+					"id" : 46,
+					"upgrades" : "dwellingUpLvl3"
+				}
+			}
+		}
+	}
+}

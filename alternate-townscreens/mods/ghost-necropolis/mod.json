@@ -1,0 +1,22 @@
+{
+	"name" : "Ghost Necropolis",
+	"description" : "Ghost Necropolis",
+	"author" : "avatar, Ubisoft",
+	"contact" : "http://heroescommunity.com/viewthread.php3?TID=34570",
+	"version" : "1.0",
+	"modType" : "Graphical",
+	"keepDisabled" : true,
+	"changelog" :
+    {
+		"1.0"   : [ "Initial release" ]
+    },
+	"conflicts" :
+	[
+		"alternate-townscreens.mirror-towns.necropolis",
+		"lotrd-townscreens.necropolis"
+	],
+	"czech" : {
+		"name" : "Nekropolis",
+		"description" : "Tato modifikace změní vzhled Nekropolis"
+	}
+}

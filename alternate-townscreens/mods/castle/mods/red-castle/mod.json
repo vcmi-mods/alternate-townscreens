@@ -1,0 +1,36 @@
+{
+	"name" : "Red Castle",
+	"description" : "Tired of blue colour in Castle? What's about some red?", 
+	"author": "Mitlandy, avatar",
+	"version" : "1.1",
+	"contact": "",
+	"modType" : "Graphical",
+	"keepDisabled" : true,
+	"conflicts" :
+	[
+		"alternate-townscreens.castle.snow-castle",
+		"alternate-townscreens.mirror-towns.castle",
+		"lotrd-townscreens.castle"
+	],
+	"softDepends" : [
+		"hota.newgraphics"
+	],
+	"changelog" :
+	{
+		"1.1"   : [ "Fixes" ],
+		"1.0"   : [ "Initial release" ]
+	},
+	"factions" :
+	[
+		"config/castle/town/faction.json",	
+		"config/castle/town/structures.json"
+	],	
+	"creatures" :
+	[
+		"config/Castle/creatures/Castle Creatures.json"
+	],
+	"czech" : {
+		"name" : "Červený Hrad",
+		"description" : "Tato modifikace přebarví Hrad z modré do červené"
+	}
+}

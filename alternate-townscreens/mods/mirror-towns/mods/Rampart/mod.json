@@ -1,0 +1,32 @@
+{
+	"name" : "Rampart",
+	"description" : "Rampart in the mirror",
+	"author" : "feanor, Bes",
+	"version" : "1.0",
+	"modType" : "Graphical",	
+	"contact" : "",
+	"changelog" :
+	{
+		"1.0"   : [ "Initial release" ]
+	},
+	"conflicts" : 
+	[
+		"alternate-townscreens.rampart.another-rampart",
+		"alternate-townscreens.rampart.autumn-rampart",
+		"lotrd-townscreens.rampart",
+		"tides-of-war.alternative-creatures"
+	],
+	"softDepends" : [
+		"wake-of-gods.heroes3datapatch",
+		"hota.heroes3DataPatch",
+		"hota.newGraphics"
+	],
+	"factions" : 
+	[ 
+	"config/qRampart"
+	],
+	"czech" : {
+		"name" : "Bašta",
+		"description" : "Zrcadlově otočený vzhled Bašty"
+	}
+}

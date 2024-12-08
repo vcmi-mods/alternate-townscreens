@@ -1,0 +1,24 @@
+{
+	"core:castle" :
+	{
+		"town" :
+		{
+			"structures" :
+			{
+				"fort":            { "animation" : "castle/town-screen/buildings/TBCSCSTL.def", "x" : 595, "y" : 66, "z" : -2, "border" : "castle/town-screen/buildings-border/TOCSCAS1.bmp", "area" : "castle/town-screen/buildings-area/TZCSCAS1.bmp" },
+				"citadel":         {  "animation" : "castle/town-screen/buildings/TBCSCAS2.def" },
+				"castle":          {  "animation" : "castle/town-screen/buildings/TBCSCAS3.def" },
+				"villageHall":     {  "animation" : "castle/town-screen/buildings/TBCSHALL.def" },
+				"townHall":        {  "animation" : "castle/town-screen/buildings/TBCSHAL2.def" },
+				"cityHall":        {  "animation" : "castle/town-screen/buildings/TBCSHAL3.def" },
+				"capitol":         {  "animation" : "castle/town-screen/buildings/TbCSHAL4.def" },
+				"dwellingLvl7":    {  "animation" : "castle/town-screen/buildings/Tbcsdw_6.def" },
+				"dwellingUpLvl1":  {  "animation" : "castle/town-screen/buildings/Tbcsup_0.def" },
+				"dwellingUpLvl2":  {  "animation" : "castle/town-screen/buildings/Tbcsup_1.def" },
+				"dwellingUpLvl4":  {  "animation" : "castle/town-screen/buildings/Tbcsup_3.def" },
+				"dwellingUpLvl6":  {  "animation" : "castle/town-screen/buildings/Tbcsup_5.def" },
+				"dwellingUpLvl7":  {  "animation" : "castle/town-screen/buildings/Tbcsup_6.def" }
+			}
+		}
+	}
+}

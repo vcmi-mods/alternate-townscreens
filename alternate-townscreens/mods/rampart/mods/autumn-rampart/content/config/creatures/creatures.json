@@ -1,0 +1,158 @@
+{
+	"core:centaur":
+	{
+		"graphics" :
+		{
+			"iconLarge" : "units/icons/big/CPrL014R.bmp"
+		}	
+	},
+	
+	"core:centaurCaptain":
+	{
+		"graphics" :
+		{
+			"iconLarge" : "units/icons/big/CPrL015R.bmp"
+		}	
+	},
+	
+	"core:dwarf":
+	{
+		"attack" : 7,
+		"cost" :
+		{
+			"gold" : 200
+		},
+		"damage" :
+		{
+			"max" : 6,
+			"min" : 3
+		},
+		"defense" : 5,
+		"graphics" :
+		{
+			"animation" : "units/CDWARF.DEF",
+			"map" : "units/avwdwrf0.def",
+			"iconSmall" : "units/icons/small/CPrS016R.bmp",
+			"iconLarge" : "units/icons/big/CPrL016R.bmp"
+		},
+		"hitPoints" : 15,
+		"speed" : 5				
+	},
+	
+	"core:battleDwarf":
+	{
+		"attack" : 8,
+		"cost" :
+		{
+			"gold" : 250
+		},
+		"damage" :
+		{
+			"max" : 7,
+			"min" : 3
+		},
+		"defense" : 5,
+		"graphics" :
+		{
+			"animation" : "units/CBDWAR.def",
+			"map" : "units/avwdwrfx0.def",
+			"iconSmall" : "units/icons/small/CPrS017R.bmp",
+			"iconLarge" : "units/icons/big/CPrL017R.bmp"
+		},
+		"hitPoints" : 15,
+		"speed" : 6		
+	},
+	
+	"core:woodElf":
+	{
+		"graphics" :
+		{
+			"iconLarge" : "units/icons/big/CPrL018R.bmp"			
+		}
+	},
+	
+	"core:grandElf":
+	{
+		"graphics" :
+		{
+			"animation" : "units/CGRELF.DEF",
+			"iconLarge" : "units/icons/big/CPrL019R.bmp"
+		}
+	},
+	
+	"core:pegasus":
+	{
+		"graphics" :
+		{
+			"iconLarge" : "units/icons/big/CPrL020R.bmp"		
+		}
+	},
+	
+	"core:silverPegasus":
+	{
+		"graphics" :
+		{
+			"iconLarge" : "units/icons/big/CPrL021R.bmp"		
+		}
+	},
+	
+	"core:dendroidGuard":
+	{
+		"faction" : "rampart",
+		"graphics" :
+		{
+			"animation" : "units/CTREE.DEF",
+			"iconLarge" : "units/icons/big/CPrL022R.bmp"		
+		}
+	},
+	
+	"core:dendroidSoldier":
+	{
+		"graphics" :
+		{
+			"animation" : "units/CBTREE.DEF",
+			"iconLarge" : "units/icons/big/CPrL023R.bmp"			
+		}
+	},
+	
+	"core:unicorn":
+	{
+		"graphics" :
+		{
+			"iconLarge" : "units/icons/big/CPrL024R.bmp"		
+		}
+	},
+	
+	"core:warUnicorn":
+	{
+		"graphics" :
+		{
+			"animation" : "units/CWUNIC.DEF",
+			"iconLarge" : "units/icons/big/CPrL025R.bmp"		
+		}
+	},
+	
+	"core:greenDragon":
+	{
+		"graphics" :
+		{
+			"iconLarge" : "units/icons/big/CPrL026R.bmp"		
+		}
+	},
+	
+	"core:goldDragon":
+	{
+		"graphics" :
+		{
+			"iconLarge" : "units/icons/big/CPrL027R.bmp"			
+		}
+	},
+	
+	"core:sharpshooter":
+	{
+		"graphics" :
+		{
+			"animation" : "units/csharp.DEF"			
+		}
+	}
+}

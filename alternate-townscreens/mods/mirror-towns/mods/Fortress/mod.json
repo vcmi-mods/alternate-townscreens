@@ -1,0 +1,30 @@
+{
+	"name" : "Fortress",
+	"description" : "Fortress in the mirror",
+	"author" : "feanor, Bes",
+	"version" : "1.0",
+	"modType" : "Graphical",	
+	"contact" : "",
+	"changelog" :
+	{
+		"1.0"   : [ "Initial release" ]
+	},
+	"conflicts" : 
+	[
+		"lotrd-townscreens.fortress",
+		"tides-of-war.alternative-creatures"
+	],
+	"softDepends" : [
+		"wake-of-gods.heroes3datapatch",
+		"hota.heroes3DataPatch",
+		"hota.newGraphics"
+	],
+	"factions" : 
+	[ 
+	"config/qFortress"
+	],
+	"czech" : {
+		"name" : "Pevnost",
+		"description" : "Zrcadlově otočený vzhled Pevnosti"
+	}
+}
