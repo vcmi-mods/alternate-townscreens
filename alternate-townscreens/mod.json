@@ -2,15 +2,16 @@
 	"name" : "Alternative town screens",
 	"description" : "A collection of various townscreens mods",
 	"author" : "",
-	"version" : "1.0",
+	"version" : "1.0.1",
 	"modType" : "Graphical",	
 	"contact" : "",
 	"changelog" :
 	{
-		"1.0"   : [ "Initial release" ]
+		"1.0.1"   : [ "Initial release" ],
+		"1.0"     : [ "Initial release" ]
 	},
 	"czech" : {
 		"name" : "Alternativní vzhledy měst",
-		"description" : "Kolekce alternativních vzhledů měst",
+		"description" : "Kolekce alternativních vzhledů měst"
 	}
 }
