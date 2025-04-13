@@ -21,11 +21,6 @@
 		"hota.heroes3datapatch",
 		"hota.newgraphics"
 	],
-	"creatures" :
-	[
-		"config/gold.json",
-		"config/stone.json"
-	],
 	"factions" :
 	[
 		"config/sandTower.json"	

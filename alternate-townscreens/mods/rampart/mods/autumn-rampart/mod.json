@@ -30,7 +30,6 @@
 		"0.9"    : [ "Initial release" ]
 	},
 	"factions" : [ "config/town.json" ],	
-	"creatures" :[ "config/creatures/creatures.json" ],
 	"czech" : {
 		"name" : "Podzimní Bašta",
 		"description" : "Tato modifikace přenese vzhled Bašty do podzimního obdodí"
