@@ -1,6 +1,0 @@
-{
-	"core:stoneGolem" :
-	{
-		"upgrades": ["goldGolem"]
-	}
-}

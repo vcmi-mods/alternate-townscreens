@@ -52,7 +52,6 @@
 				"dwellingUpLvl1": { "animation" : "Sand Tower/TBTWUP_0.def", "x" : 446, "y" : 221, "z" : 1,  "border" : "TOTGRM2A.bmp", "area" : "TZTGRM2A.bmp" },
 				"dwellingUpLvl2": { "animation" : "Sand Tower/TBTWUP_1.def", "x" : 4,   "y" : 28,  "border" : "TOTGAR2.bmp",  "area" : "TZTGAR2.bmp" },
 				"dwellingUpLvl3": { "animation" : "Sand Tower/TBTWUP_2.def", "x" : 209, "y" : 177, "z" : 1,  "border" : "TOTGOL2A.bmp", "area" : "TZTGOL2A.bmp" },
-				"dwellingUp2Lvl3": { "animation" : "Sand Tower/town-screen/buildings/TBTWUP_2Up.def", "x" : 209, "y" : 177, "z" : 1, "border" : "TOTGOL2A.bmp", "area" : "TZTGOL2A.bmp" },
 				"dwellingUpLvl4": { "animation" : "Sand Tower/TBTWUP_3.def", "x" : 613, "y" : 74,  "border" : "TOTMAG2.bmp",  "area" : "TZTMAG2.bmp" },
 				"dwellingUpLvl5": { "animation" : "Sand Tower/TBTWUP_4.def", "x" : 511, "y" : 8,   "border" : "TOTGEN2.bmp",  "area" : "TZTGEN2.bmp" },
 				"dwellingUpLvl6": { "animation" : "Sand Tower/TBTWUP_5.def", "x" : 681, "y" : 157, "z" : 2,  "border" : "TOTNAG2.bmp",  "area" : "TZTNAG2.bmp" },
@@ -73,29 +72,12 @@
 			[
 				["gremlin", "masterGremlin"],
 				["stoneGargoyle", "obsidianGargoyle"],
-				["ironGolem", "stoneGolem", "goldGolem"],
+				["ironGolem", "stoneGolem"],
 				["mage", "archMage"],
 				["genie", "masterGenie"],
 				["naga", "nagaQueen"],
 				["giant", "titan"]
-			],
-
-			"buildings" :
-			{
-				"dwellingUp2Lvl3" :
-				{
-					"description" : "Golden Fabric allow to recruit Golden Golems.",
-					"name" : "Golden Fabric",
-					"cost" :
-					{
-						"gems" : 5,
-						"ore" : 5,
-						"gold" : 2500
-					},
-					"id" : 46,
-					"upgrades" : "dwellingUpLvl3"
-				}
-			}
+			]
 		}
 	}
 }
