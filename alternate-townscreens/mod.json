@@ -3,13 +3,18 @@
 	"description" : "A collection of various townscreens mods",
 	"author" : "",
 	"version" : "1.0.2",
-	"modType" : "Graphical",	
+	"modType" : "Graphical",
 	"contact" : "",
-	"changelog" :
-	{
-		"1.0.2"   : [ "Removed changed creatures attiributes" ],
-		"1.0.1"   : [ "Small fixes" ],
-		"1.0"     : [ "Initial release" ]
+	"changelog" : {
+		"1.0.2" : [
+			"Removed changed creatures attiributes"
+		],
+		"1.0.1" : [
+			"Small fixes"
+		],
+		"1.0" : [
+			"Initial release"
+		]
 	},
 	"czech" : {
 		"name" : "Alternativní vzhledy měst",

@@ -3,14 +3,14 @@
 	"description" : "Castle in the mirror",
 	"author" : "feanor, Bes",
 	"version" : "1.0",
-	"modType" : "Graphical",	
+	"modType" : "Graphical",
 	"contact" : "",
-	"changelog" :
-	{
-		"1.0"   : [ "Initial release" ]
+	"changelog" : {
+		"1.0" : [
+			"Initial release"
+		]
 	},
-	"conflicts" : 
-	[
+	"conflicts" : [
 		"alternate-townscreens.castle.red-castle",
 		"alternate-townscreens.castle.snow-castle",
 		"lotrd-townscreens.castle",
@@ -21,9 +21,8 @@
 		"hota.heroes3DataPatch",
 		"hota.newGraphics"
 	],
-	"factions" : 
-	[ 
-	"config/qCastle"
+	"factions" : [
+		"config/qCastle"
 	],
 	"czech" : {
 		"name" : "Hrad",

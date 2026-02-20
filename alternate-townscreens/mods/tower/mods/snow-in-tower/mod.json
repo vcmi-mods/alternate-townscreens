@@ -5,22 +5,20 @@
 	"contact" : "madaosoul@gmail.com",
 	"version" : "0.5",
 	"modType" : "Graphical",
-	"factions" :
-	[
+	"factions" : [
 		"config/snowTower.json"
 	],
-	"compatibility":
-	{
+	"compatibility" : {
 		"min" : "1.0.0"
 	},
-	"conflicts" :
-	[
+	"conflicts" : [
 		"alternate-townscreens.tower.sand-tower"
 	],
-	"changelog" :
-    {
-		"0.5" : ["Initial release"]
-    },
+	"changelog" : {
+		"0.5" : [
+			"Initial release"
+		]
+	},
 	"czech" : {
 		"name" : "Sníh ve Věži",
 		"description" : "Ve Věži začně sněžit!"

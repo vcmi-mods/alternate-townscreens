@@ -6,12 +6,12 @@
 	"version" : "1.0",
 	"modType" : "Graphical",
 	"keepDisabled" : true,
-	"changelog" :
-    {
-		"1.0"   : [ "Initial release" ]
-    },
-	"conflicts" :
-	[
+	"changelog" : {
+		"1.0" : [
+			"Initial release"
+		]
+	},
+	"conflicts" : [
 		"alternate-townscreens.mirror-towns.necropolis",
 		"lotrd-townscreens.necropolis"
 	],

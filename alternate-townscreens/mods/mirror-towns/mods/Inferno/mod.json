@@ -3,14 +3,14 @@
 	"description" : "Inferno in the mirror",
 	"author" : "feanor, Bes",
 	"version" : "1.0",
-	"modType" : "Graphical",	
+	"modType" : "Graphical",
 	"contact" : "",
-	"changelog" :
-	{
-		"1.0"   : [ "Initial release" ]
+	"changelog" : {
+		"1.0" : [
+			"Initial release"
+		]
 	},
-	"conflicts" : 
-	[
+	"conflicts" : [
 		"lotrd-townscreens.inferno",
 		"tides-of-war.alternative-creatures"
 	],
@@ -19,9 +19,8 @@
 		"hota.heroes3DataPatch",
 		"hota.newGraphics"
 	],
-	"factions" : 
-	[ 
-	"config/qInferno"
+	"factions" : [
+		"config/qInferno"
 	],
 	"czech" : {
 		"name" : "Peklo",

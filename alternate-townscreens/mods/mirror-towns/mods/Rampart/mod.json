@@ -3,14 +3,14 @@
 	"description" : "Rampart in the mirror",
 	"author" : "feanor, Bes",
 	"version" : "1.0",
-	"modType" : "Graphical",	
+	"modType" : "Graphical",
 	"contact" : "",
-	"changelog" :
-	{
-		"1.0"   : [ "Initial release" ]
+	"changelog" : {
+		"1.0" : [
+			"Initial release"
+		]
 	},
-	"conflicts" : 
-	[
+	"conflicts" : [
 		"alternate-townscreens.rampart.another-rampart",
 		"alternate-townscreens.rampart.autumn-rampart",
 		"lotrd-townscreens.rampart",
@@ -21,9 +21,8 @@
 		"hota.heroes3DataPatch",
 		"hota.newGraphics"
 	],
-	"factions" : 
-	[ 
-	"config/qRampart"
+	"factions" : [
+		"config/qRampart"
 	],
 	"czech" : {
 		"name" : "Bašta",
