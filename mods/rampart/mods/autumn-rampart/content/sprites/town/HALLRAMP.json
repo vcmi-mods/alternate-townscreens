@@ -1,0 +1,7 @@
+{
+    "basepath" : "town/",
+	"images" :
+	[
+		{ "frame" : 21, "file" : "tbrmext0"}
+	]
+}

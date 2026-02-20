@@ -1,0 +1,30 @@
+{
+	"name" : "Conflux",
+	"description" : "Conflux in the mirror",
+	"author" : "feanor, Bes",
+	"version" : "1.0",
+	"modType" : "Graphical",	
+	"contact" : "",
+	"changelog" :
+	{
+		"1.0"   : [ "Initial release" ]
+	},
+	"conflicts" : 
+	[
+		"lotrd-townscreens.conflux",
+		"tides-of-war.alternative-creatures"
+	],
+	"softDepends" : [
+		"wake-of-gods.heroes3datapatch",
+		"hota.heroes3DataPatch",
+		"hota.newGraphics"
+	],
+	"factions" : 
+	[
+	"config/qConflux"
+	],
+	"czech" : {
+		"name" : "Soutok",
+		"description" : "Zrcadlově otočený vzhled Soutoku"
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"name" : "Tower",
+	"description" : "Alternative Tower views - Sand or Snow one",
+	"author" : "",
+	"version" : "1.0",
+	"modType" : "Graphical",	
+	"contact" : "",
+	"changelog" :
+	{
+		"1.0"   : [ "Initial release" ]
+	},
+	"czech" : {
+		"name" : "Věž",
+		"description" : "Alternativní vzhledy pro Věž"
+	}
+}

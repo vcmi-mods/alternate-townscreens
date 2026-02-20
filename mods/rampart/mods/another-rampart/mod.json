@@ -1,0 +1,38 @@
+{
+	"name" : "Another Rampart",
+	"description" : "Another Rampart mod for ERA II ported to VCMI. New internal Rampart look.",
+	"author" : "???? from Chinese wog forums, Kuririn, avatar",
+	"version" : "1.1",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"modType" : "Graphical",
+	"contact" : "unknown",
+	"keepDisabled" : true,
+	"conflicts" :
+	[
+		"alternate-townscreens.rampart.autumn-rampart",
+		"alternate-townscreens.mirror-towns.rampart",
+		"lotrd-townscreens.rampart"
+	],
+	"softDepends" : [
+		"hota.heroes3datapatch",
+		"hota.newgraphics"
+	],
+	"compatibility" :
+	{
+		"min" : "1.0.0"
+	},
+	"changelog" :
+	{
+		"1.1"   : [ "Renamed folders" ],
+		"1.0"   : [ "Initial release" ]
+	},
+	"factions" :
+	[
+		"config/ramp-pres/town.json"
+	],
+	"czech" : {
+		"name" : "Jiná Bašta",
+		"description" : "Tato modifikace změní vzhled Bašty"
+	}
+}

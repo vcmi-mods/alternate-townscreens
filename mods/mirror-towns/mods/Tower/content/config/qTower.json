@@ -1,0 +1,48 @@
+{
+	"core:tower" :
+	{
+		"town" :
+		{
+			"structures" :
+			{
+				"mageGuild1":     { "animation" : "TBTWMAGE.def", "x" : 32, "y" : 82,  "border" : "TOTGLD1.png",  "area" : "TZTGLD1.png" },
+				"mageGuild2":     { "animation" : "TBTWMAG2.def", "x" : 29, "y" : 65,  "border" : "TOTGLD2.png",  "area" : "TZTGLD2.png" },
+				"mageGuild3":     { "animation" : "TBTWMAG3.def", "x" : 29, "y" : 48,  "border" : "TOTGLD3.png",  "area" : "TZTGLD3.png" },
+				"mageGuild4":     { "animation" : "TBTWMAG4.def", "x" : 29, "y" : 31,  "border" : "TOTGLD4.png",  "area" : "TZTGLD4.png" },
+				"mageGuild5":     { "animation" : "TBTWMAG5.def", "x" : 29, "y" : 14,  "border" : "TOTGLD5.png",  "area" : "TZTGLD5.png" },
+				"tavern":         { "animation" : "TBTWTVRN.def", "x" : 303, "y" : 278, "z" : 1, "border" : "TOTTAV.png",   "area" : "TZTTAV.png" },
+				"fort":           { "animation" : "TBTWCSTL.def", "x" : 389, "y" : 0,   "border" : "TOTCAS1.png",  "area" : "TZTCAS1.png" },
+				"citadel":        { "animation" : "TBTWCAS2.def", "x" : 360, "y" : 0,   "border" : "TOTCAS2.png",  "area" : "TZTCAS2.png" },
+				"castle":         { "animation" : "TBTWCAS3.def", "x" : 360, "y" : 0,   "border" : "TOTCAS3.png",  "area" : "TZTCAS3.png" },
+				"villageHall":    { "animation" : "TBTWHALL.def", "x" : 623,   "y" : 259, "z" : 1,  "border" : "TOTHAL1.png",  "area" : "TZTHAL1.png" },
+				"townHall":       { "animation" : "TBTWHAL2.def", "x" : 536,   "y" : 220, "z" : 1,  "border" : "TOTHAL2.png",  "area" : "TZTHAL2.png" },
+				"cityHall":       { "animation" : "TBTWHAL3.def", "x" : 536,   "y" : 82,  "z" : 1,  "border" : "TOTHAL3.png",  "area" : "TZTHAL3.png" },
+				"capitol":        { "animation" : "TBTWHAL4.def", "x" : 536,   "y" : 82,  "z" : 1,  "border" : "TOTHAL4.png",  "area" : "TZTHAL4.png" },
+				"marketplace":    { "animation" : "TBTWMARK.def", "x" : 0, "y" : 292, "border" : "TOTMRK.png",   "area" : "TZTMRK.png" },
+				"resourceSilo":   { "animation" : "TBTWSILO.def", "x" : 10, "y" : 214, "z" : 3, "border" : "TOTMRKS.png",  "area" : "TZTMRKS.png" },
+				"blacksmith":     { "animation" : "TBTWBLAK.def", "x" : 182, "y" : 211, "border" : "TOTBLKA.png",  "area" : "TZTBLKA.png" },
+				"special1":       { "animation" : "TBTWSPEC.def", "x" : 58, "y" : 276, "z" : 2, "border" : "TOTMRKA.png",  "area" : "TZTMRKA.png" },
+				"horde1":         { "animation" : "TBTWHRD1.def", "x" : 743,   "y" : 47,  "border" : "TOTGAR1H.png", "area" : "TZTGAR1H.png", "hidden" : true },
+				"horde1Upgr":     { "animation" : "TBTWHRD2.def", "x" : 743,   "y" : 28,  "border" : "TOTGAR2H.png", "area" : "TZTGAR2H.png", "hidden" : true, "builds" : "horde1" },
+				"special2":       { "animation" : "TBTWEXT0.def", "x" : 436, "y" : 82,  "border" : "TOTCASW.png",  "area" : "TZTCASW.png" },
+				"special3":       { "animation" : "TBTWEXT1.def", "x" : 71, "y" : 115, "border" : "TOTGLDL.png",  "area" : "TZTGLDL.png" },
+				"special4":       { "animation" : "TBTWEXT2.def", "x" : 30, "y" : 189, "z" : 1,  "border" : "TOTGLDW.png",  "area" : "TZTGLDW.png" },
+				"grail":          { "animation" : "TBTWHOLY.def", "x" : 473, "y" : 14,  "z" : -1, "border" : "TOTHOLYA.png", "area" : "TZTHOLYA.png" },
+				"dwellingLvl1":   { "animation" : "TBTWDW_0.def", "x" : 294, "y" : 221, "z" : 1,  "border" : "TOTGRM1A.png", "area" : "TZTGRM1A.png" },
+				"dwellingLvl2":   { "animation" : "TBTWDW_1.def", "x" : 743,   "y" : 46,  "border" : "TOTGAR1.png",  "area" : "TZTGAR1.png" },
+				"dwellingLvl3":   { "animation" : "TBTWDW_2.def", "x" : 483, "y" : 177, "z" : 1,  "border" : "TOTGOL1A.png", "area" : "TZTGOL1A.png" },
+				"dwellingLvl4":   { "animation" : "TBTWDW_3.def", "x" : 135, "y" : 95,  "border" : "TOTMAG1.png",  "area" : "TZTMAG1.png" },
+				"dwellingLvl5":   { "animation" : "TBTWDW_4.def", "x" : 204, "y" : 75,  "border" : "TOTGEN1.png",  "area" : "TZTGEN1.png" },
+				"dwellingLvl6":   { "animation" : "TBTWDW_5.def", "x" : 14, "y" : 208, "z" : 2,  "border" : "TOTNAG1.png",  "area" : "TZTNAG1.png" },
+				"dwellingLvl7":   { "animation" : "TBTWDW_6.def", "x" : 552,  "y" : 144, "z" : -1, "border" : "TOTTIT1.png",  "area" : "TZTTIT1.png" },
+				"dwellingUpLvl1": { "animation" : "TBTWUP_0.def", "x" : 290, "y" : 221, "z" : 1,  "border" : "TOTGRM2A.png", "area" : "TZTGRM2A.png" },
+				"dwellingUpLvl2": { "animation" : "TBTWUP_1.def", "x" : 743,   "y" : 28,  "border" : "TOTGAR2.png",  "area" : "TZTGAR2.png" },
+				"dwellingUpLvl3": { "animation" : "TBTWUP_2.def", "x" : 483, "y" : 177, "z" : 1,  "border" : "TOTGOL2A.png", "area" : "TZTGOL2A.png" },
+				"dwellingUpLvl4": { "animation" : "TBTWUP_3.def", "x" : 135, "y" : 74,  "border" : "TOTMAG2.png",  "area" : "TZTMAG2.png" },
+				"dwellingUpLvl5": { "animation" : "TBTWUP_4.def", "x" : 204, "y" : 8,   "border" : "TOTGEN2.png",  "area" : "TZTGEN2.png" },
+				"dwellingUpLvl6": { "animation" : "TBTWUP_5.def", "x" : 14, "y" : 157, "z" : 2,  "border" : "TOTNAG2.png",  "area" : "TZTNAG2.png" },
+				"dwellingUpLvl7": { "animation" : "TBTWUP_6.def", "x" : 552,  "y" : 91,  "z" : -1, "border" : "TOTTIT2.png",  "area" : "TZTTIT2.png" }
+			}
+		}
+	}
+}

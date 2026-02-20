@@ -1,0 +1,28 @@
+{
+	"name" : "Snow in Tower",
+	"description" : "Additional animation that changes the weather in the Tower town screen",
+	"author" : "Andruids, whoever made the snow gif",
+	"contact" : "madaosoul@gmail.com",
+	"version" : "0.5",
+	"modType" : "Graphical",
+	"factions" :
+	[
+		"config/snowTower.json"
+	],
+	"compatibility":
+	{
+		"min" : "1.0.0"
+	},
+	"conflicts" :
+	[
+		"alternate-townscreens.tower.sand-tower"
+	],
+	"changelog" :
+    {
+		"0.5" : ["Initial release"]
+    },
+	"czech" : {
+		"name" : "Sníh ve Věži",
+		"description" : "Ve Věži začně sněžit!"
+	}
+}

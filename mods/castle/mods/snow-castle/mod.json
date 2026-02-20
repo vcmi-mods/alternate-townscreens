@@ -1,0 +1,36 @@
+{
+	"name" : "Snow Castle",
+	"description" : "Changes Castle internal look and adds snow. Lots of snow!",
+	"author": "Planet Avril, Dreamaker, avatar",
+	"version" : "1.1",
+	"contact": "http://heroescommunity.com/viewthread.php3?TID=39205",
+	"modType" : "Graphical",
+	"keepDisabled" : true,
+	"factions" :
+	[
+		"config/castle/town/faction.json",	
+		"config/castle/town/structures.json" 
+	],
+	"conflicts" :
+	[
+		"alternate-townscreens.castle.red-castle",
+		"alternate-townscreens.mirror-towns.castle",
+		"lotrd-townscreens.castle"
+	],
+	"softDepends" : [
+		"hota.newgraphics"
+	],
+	"changelog" :
+    {
+		"1.0" : ["Initial release"],
+		"1.1" : [ "New town theme by Fabrice-TIERCELIN and AI Udio" ]
+    },
+	"compatibility":
+	{
+		"min" : "1.0.0"
+	},
+	"czech" : {
+		"name" : "Zasněžený Hrad",
+		"description" : "Tato modifikace úřenese vzhled Hradu do zimního období plného sněhu a ledu"
+	}
+}

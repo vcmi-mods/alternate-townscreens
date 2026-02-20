@@ -1,0 +1,19 @@
+{
+	"core:tower" :
+		{
+		"town" :
+			{
+				"structures" : 
+				{
+					"extraAnimation": 
+					{ 
+						"animation" : "snow-gif", 
+						"x" : 2, 
+						"y" : 0,
+						"z" : 5
+					}
+				}
+		
+			}
+		}
+}

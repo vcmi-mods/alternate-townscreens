@@ -1,0 +1,387 @@
+{
+    // Base path of all images in animation. Optional.
+    // Can be used to avoid using long path to images 
+    //"basepath" : "",
+ 
+    // List of sequiences / groups in animation
+    // This will replace original group with specified list of files
+    // even if original animation is longer
+    "sequences" :
+    [
+        {
+            // Index of group, zero-based
+            "group" : 0,
+ 
+            // List of files in this group
+            "frames" :
+            [
+				"Snow-1.png",
+				"Snow-2.png",
+				"Snow-3.png",
+				"Snow-4.png",
+				"Snow-5.png",
+				"Snow-6.png",
+				"Snow-7.png",
+				"Snow-8.png",
+				"Snow-9.png",
+				"Snow-10.png",
+				"Snow-11.png",
+				"Snow-12.png",
+				"Snow-13.png",
+				"Snow-14.png",
+				"Snow-15.png",
+				"Snow-16.png",
+				"Snow-17.png",
+				"Snow-18.png",
+				"Snow-19.png",
+				"Snow-20.png",
+				"Snow-21.png",
+				"Snow-22.png",
+				"Snow-23.png",
+				"Snow-24.png",
+				"Snow-25.png",
+				"Snow-26.png",
+				"Snow-27.png",
+				"Snow-28.png",
+				"Snow-29.png",
+				"Snow-30.png",
+				"Snow-31.png",
+				"Snow-32.png",
+				"Snow-33.png",
+				"Snow-34.png",
+				"Snow-35.png",
+				"Snow-36.png",
+				"Snow-37.png",
+				"Snow-38.png",
+				"Snow-39.png",
+				"Snow-40.png",
+				"Snow-41.png",
+				"Snow-42.png",
+				"Snow-43.png",
+				"Snow-44.png",
+				"Snow-45.png",
+				"Snow-46.png",
+				"Snow-47.png",
+				"Snow-48.png",
+				"Snow-49.png",
+				"Snow-50.png",
+				"Snow-51.png",
+				"Snow-52.png",
+				"Snow-53.png",
+				"Snow-54.png",
+				"Snow-55.png",
+				"Snow-56.png",
+				"Snow-57.png",
+				"Snow-58.png",
+				"Snow-59.png",
+				"Snow-60.png"
+            ]
+        }
+     
+    ],
+ 
+   "images" :
+    [
+        {
+            "group" : 0,
+            "frame" : 0,
+            "file" : "Snow-1"
+        },
+        {
+            "group" : 0,
+            "frame" : 1,
+            "file" : "Snow-2"
+        },
+        {
+            "group" : 0,
+            "frame" : 2,
+            "file" : "Snow-3"
+        },
+        {
+            "group" : 0,
+            "frame" : 3,
+            "file" : "Snow-4"
+        },
+        {
+            "group" : 0,
+            "frame" : 4,
+            "file" : "Snow-5"
+        },
+        {
+            "group" : 5,
+            "frame" : 0,
+            "file" : "Snow-6"
+        },
+        {
+            "group" : 0,
+            "frame" : 6,
+            "file" : "Snow-7"
+        },
+        {
+            "group" : 0,
+            "frame" : 7,
+            "file" : "Snow-8"
+        },
+        {
+            "group" : 0,
+            "frame" : 8,
+            "file" : "Snow-9"
+        },
+        {
+            "group" : 0,
+            "frame" : 9,
+            "file" : "Snow-10"
+        },
+        {
+            "group" : 0,
+            "frame" : 10,
+            "file" : "Snow-11"
+        },
+        {
+            "group" : 0,
+            "frame" : 11,
+            "file" : "Snow-12"
+        },
+        {
+            "group" : 0,
+            "frame" : 12,
+            "file" : "Snow-13"
+        },
+        {
+            "group" : 0,
+            "frame" : 13,
+            "file" : "Snow-14"
+        },
+        {
+            "group" : 0,
+            "frame" : 14,
+            "file" : "Snow-15"
+        },
+        {
+            "group" : 0,
+            "frame" : 15,
+            "file" : "Snow-16"
+        },
+        {
+            "group" : 0,
+            "frame" : 16,
+            "file" : "Snow-17"
+        },
+        {
+            "group" : 0,
+            "frame" : 17,
+            "file" : "Snow-18"
+        },
+        {
+            "group" : 0,
+            "frame" : 18,
+            "file" : "Snow-19"
+        },
+        {
+            "group" : 5,
+            "frame" : 19,
+            "file" : "Snow-20"
+        },
+        {
+            "group" : 0,
+            "frame" : 20,
+            "file" : "Snow-21"
+        },
+        {
+            "group" : 0,
+            "frame" : 21,
+            "file" : "Snow-22"
+        },
+        {
+            "group" : 0,
+            "frame" : 22,
+            "file" : "Snow-23"
+        },
+        {
+            "group" : 0,
+            "frame" : 23,
+            "file" : "Snow-24"
+        },
+        {
+            "group" : 0,
+            "frame" : 24,
+            "file" : "Snow-25"
+        },
+        {
+            "group" : 0,
+            "frame" : 25,
+            "file" : "Snow-26"
+        },
+        {
+            "group" : 0,
+            "frame" : 26,
+            "file" : "Snow-27"
+        },
+        {
+            "group" : 0,
+            "frame" : 27,
+            "file" : "Snow-28"
+        },
+        {
+            "group" : 0,
+            "frame" : 28,
+            "file" : "Snow-29"
+        },
+        {
+            "group" : 0,
+            "frame" : 29,
+            "file" : "Snow-30"
+        },
+        {
+            "group" : 0,
+            "frame" : 30,
+            "file" : "Snow-31"
+        },
+        {
+            "group" : 0,
+            "frame" : 31,
+            "file" : "Snow-32"
+        },
+        {
+            "group" : 0,
+            "frame" : 32,
+            "file" : "Snow-33"
+        },
+        {
+            "group" : 5,
+            "frame" : 33,
+            "file" : "Snow-34"
+        },
+        {
+            "group" : 0,
+            "frame" : 34,
+            "file" : "Snow-35"
+        },
+        {
+            "group" : 0,
+            "frame" : 35,
+            "file" : "Snow-36"
+        },
+        {
+            "group" : 0,
+            "frame" : 36,
+            "file" : "Snow-37"
+        },
+        {
+            "group" : 0,
+            "frame" : 37,
+            "file" : "Snow-38"
+        },
+        {
+            "group" : 0,
+            "frame" : 38,
+            "file" : "Snow-39"
+        },
+        {
+            "group" : 0,
+            "frame" : 39,
+            "file" : "Snow-40"
+        },
+        {
+            "group" : 0,
+            "frame" : 40,
+            "file" : "Snow-41"
+        },
+        {
+            "group" : 0,
+            "frame" : 41,
+            "file" : "Snow-42"
+        },
+        {
+            "group" : 0,
+            "frame" : 42,
+            "file" : "Snow-43"
+        },
+        {
+            "group" : 0,
+            "frame" : 43,
+            "file" : "Snow-44"
+        },
+        {
+            "group" : 0,
+            "frame" : 44,
+            "file" : "Snow-45"
+        },
+        {
+            "group" : 0,
+            "frame" : 45,
+            "file" : "Snow-46"
+        },
+        {
+            "group" : 0,
+            "frame" : 46,
+            "file" : "Snow-47"
+        },
+        {
+            "group" : 5,
+            "frame" : 47,
+            "file" : "Snow-48"
+        },
+        {
+            "group" : 0,
+            "frame" : 48,
+            "file" : "Snow-49"
+        },
+        {
+            "group" : 0,
+            "frame" : 49,
+            "file" : "Snow-50"
+        },
+        {
+            "group" : 0,
+            "frame" : 50,
+            "file" : "Snow-51"
+        },
+        {
+            "group" : 0,
+            "frame" : 51,
+            "file" : "Snow-52"
+        },
+        {
+            "group" : 0,
+            "frame" : 52,
+            "file" : "Snow-53"
+        },
+        {
+            "group" : 0,
+            "frame" : 53,
+            "file" : "Snow-54"
+        },
+        {
+            "group" : 0,
+            "frame" : 54,
+            "file" : "Snow-55"
+        },
+        {
+            "group" : 0,
+            "frame" : 55,
+            "file" : "Snow-56"
+        },
+        {
+            "group" : 0,
+            "frame" : 56,
+            "file" : "Snow-57"
+        },
+        {
+            "group" : 0,
+            "frame" : 57,
+            "file" : "Snow-58"
+        },
+        {
+            "group" : 0,
+            "frame" : 58,
+            "file" : "Snow-59"
+        },
+        {
+            "group" : 0,
+            "frame" : 59,
+            "file" : "Snow-60"
+        }		
+    ]
+
+}
