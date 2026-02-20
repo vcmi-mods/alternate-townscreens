@@ -6,13 +6,15 @@
 	"contact" : "http://forum.vcmi.eu/viewtopic.php?p=11046&sid=c709e37f1a8d8b91d286928e90cf4a8a#11046",
 	"modType" : "Graphical",
 	"keepDisabled" : true,
-	"changelog" :
-	{
-		"1.1" : [ "Fixes" ],
-		"1.0" : [ "Initial release" ]
+	"changelog" : {
+		"1.1" : [
+			"Fixes"
+		],
+		"1.0" : [
+			"Initial release"
+		]
 	},
-	"conflicts" :
-	[
+	"conflicts" : [
 		"alternate-townscreens.mirror-towns.tower",
 		"alternate-townscreens.tower.snow-in-tower",
 		"lotrd-townscreens.tower"
@@ -21,9 +23,8 @@
 		"hota.heroes3datapatch",
 		"hota.newgraphics"
 	],
-	"factions" :
-	[
-		"config/sandTower.json"	
+	"factions" : [
+		"config/sandTower.json"
 	],
 	"czech" : {
 		"name" : "Písečná Věž",

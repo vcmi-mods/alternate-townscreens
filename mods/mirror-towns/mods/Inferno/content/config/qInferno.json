@@ -1,48 +1,296 @@
 {
-	"core:inferno" :
-	{
-		"town" :
-		{
-			"structures" :
-			{
-				"mageGuild1":     { "animation" : "TBINMAGE.def", "x" : 9, "y" : 127, "border" : "TOIMAG1A.png", "area" : "TZIMAG1A.png" },
-				"mageGuild2":     { "animation" : "TBINMAG2.def", "x" : 1, "y" : 101, "border" : "TOIMAG2A.png", "area" : "TZIMAG2A.png" },
-				"mageGuild3":     { "animation" : "TBINMAG3.def", "x" : 1, "y" : 83,  "border" : "TOIMAG3A.png", "area" : "TZIMAG3A.png" },
-				"mageGuild4":     { "animation" : "TBINMAG4.def", "x" : 1, "y" : 56,  "border" : "TOIMAG4A.png", "area" : "TZIMAG4A.png" },
-				"mageGuild5":     { "animation" : "TBINMAG5.def", "x" : 1, "y" : 35,  "border" : "TOIMAG5A.png", "area" : "TZIMAG5A.png" },
-				"tavern":         { "animation" : "TBINTVRN.def", "x" : 601, "y" : 219, "z" : 1,  "border" : "TOITAV.png",   "area" : "TZITAV.png" },
-				"fort":           { "animation" : "TBINCSTL.def", "x" : 328, "y" : 44,  "border" : "TOICAS2A.png", "area" : "TZICAS2A.png" },
-				"citadel":        { "animation" : "TBINCAS2.def", "x" : 328, "y" : 44,  "border" : "TOICAS1A.png", "area" : "TZICAS1A.png" },
-				"castle":         { "animation" : "TBINCAS3.def", "x" : 328, "y" : 18,  "border" : "TOICAS3A.png", "area" : "TZICAS3A.png" },
-				"villageHall":    { "animation" : "TBINHALL.def", "x" : 574,   "y" : 174, "border" : "TOIHAL1.png",  "area" : "TZIHAL1.png"  },
-				"townHall":       { "animation" : "TBINHAL2.def", "x" : 574,   "y" : 174, "border" : "TOIHAL2.png",  "area" : "TZIHAL2.png"  },
-				"cityHall":       { "animation" : "TBINHAL3.def", "x" : 574,   "y" : 174, "border" : "TOIHAL3.png",  "area" : "TZIHAL3.png"  },
-				"capitol":        { "animation" : "TBINHAL4.def", "x" : 574,   "y" : 131, "border" : "TOIHAL4.png",  "area" : "TZIHAL4.png"  },
-				"marketplace":    { "animation" : "TBINMARK.def", "x" : 145, "y" : 301, "z" : 4,  "border" : "TOIMAR1.png",  "area" : "TZIMAR1.png" },
-				"resourceSilo":   { "animation" : "TBINSILO.def", "x" : 227, "y" : 337, "z" : 5,  "border" : "TOIMAR2.png",  "area" : "TZIMAR2.png" },
-				"blacksmith":     { "animation" : "TBINBLAK.def", "x" : 0, "y" : 253, "z" : 1,  "border" : "TOIBLKA.png",  "area" : "TZIBLKA.png" },
-				"horde1":         { "animation" : "TBINHRD1.def", "x" : 98, "y" : 256, "border" : "TOIMP1HA.png", "area" : "TZIMP1HA.png", "hidden" : true },
-				"horde1Upgr":     { "animation" : "TBINHRD2.def", "x" : 98, "y" : 221, "border" : "TOIMP2HA.png", "area" : "TZIMP2HA.png", "hidden" : true, "builds" : "horde1" },
-				"special2":       { "animation" : "TBINEXT0.def", "x" : 167, "y" : 0,   "z" : -1, "border" : "TOICAB1A.png", "area" : "TZICAB1A.png" },
-				"special3":       { "animation" : "TBINEXT1.def", "x" : 509, "y" : 174, "z" : 2,  "border" : "TOICASGA.png", "area" : "TZICASGA.png" },
-				"special4":       { "animation" : "TBINEXT2.def", "x" : 123, "y" : 104, "border" : "TOIPAIN.png",  "area" : "TZIPAIN.png"  },
-				"horde2":         { "animation" : "TBINHRD3.def", "x" : 648,  "y" : 301, "border" : "TOIHND1H.png", "area" : "TZIHND1H.png", "hidden" : true },
-				"horde2Upgr":     { "animation" : "TBINHRD4.def", "x" : 641,   "y" : 273, "border" : "TOIHND2H.png", "area" : "TZIHND2H.png", "hidden" : true, "builds" : "horde2" },
-				"grail":          { "animation" : "TBINHOLY.def", "x" : 520,  "y" : 10,  "z" : -1, "border" : "TOIHOLY.png",  "area" : "TZIHOLY.png" },
-				"dwellingLvl1":   { "animation" : "TBINDW_0.def", "x" : 98, "y" : 256, "border" : "TOIMP1A.png",  "area" : "TZIMP1A.png"  },
-				"dwellingLvl2":   { "animation" : "TBINDW_1.def", "x" : 475, "y" : 248, "z" : 4,  "border" : "TOIGOG1A.png", "area" : "TZIGOG1A.png" },
-				"dwellingLvl3":   { "animation" : "TBINDW_2.def", "x" : 681,   "y" : 325, "border" : "TOIHND1.png",  "area" : "TZIHND1.png"  },
-				"dwellingLvl4":   { "animation" : "TBINDW_3.def", "x" : 291, "y" : 204, "z" : 2,  "border" : "TOIDMN1.png",  "area" : "TZIDMN1.png" },
-				"dwellingLvl5":   { "animation" : "TBINDW_4.def", "x" : 249, "y" : 296, "z" : 3,  "border" : "TOIPIT1.png",  "area" : "TZIPIT1.png" },
-				"dwellingLvl6":   { "animation" : "TBINDW_5.def", "x" : 300, "y" : 350, "z" : 5,  "border" : "TOIEFR1.png",  "area" : "TZIEFR1.png" },
-				"dwellingLvl7":   { "animation" : "TBINDW_6.def", "x" : 192, "y" : 153, "z" : -1, "border" : "TOIDVL1.png",  "area" : "TZIDVL1.png" },
-				"dwellingUpLvl1": { "animation" : "TBINUP_0.def", "x" : 98, "y" : 221, "border" : "TOIMP2A.png",  "area" : "TZIMP2A.png"  },
-				"dwellingUpLvl2": { "animation" : "TBINUP_1.def", "x" : 475, "y" : 212, "z" : 4,  "border" : "TOIGOG2A.png", "area" : "TZIGOG2A.png" },
-				"dwellingUpLvl3": { "animation" : "TBINUP_2.def", "x" : 655,   "y" : 273, "border" : "TOIHND2.png",  "area" : "TZIHND2.png"  },
-				"dwellingUpLvl4": { "animation" : "TBINUP_3.def", "x" : 292, "y" : 197, "z" : 2,  "border" : "TOIDMN2.png",  "area" : "TZIDMN2.png" },
-				"dwellingUpLvl5": { "animation" : "TBINUP_4.def", "x" : 250, "y" : 244, "z" : 3,  "border" : "TOIPIT2.png",  "area" : "TZIPIT2.png" },
-				"dwellingUpLvl6": { "animation" : "TBINUP_5.def", "x" : 300, "y" : 282, "z" : 5,  "border" : "TOIEFR2.png",  "area" : "TZIEFR2.png" },
-				"dwellingUpLvl7": { "animation" : "TBINUP_6.def", "x" : 192, "y" : 105, "z" : -1, "border" : "TOIDVL2.png",  "area" : "TZIDVL2.png" }
+	"core:inferno" : {
+		"town" : {
+			"structures" : {
+				"mageGuild1" : {
+					"animation" : "TBINMAGE.def",
+					"x" : 9,
+					"y" : 127,
+					"border" : "TOIMAG1A.png",
+					"area" : "TZIMAG1A.png"
+				},
+				"mageGuild2" : {
+					"animation" : "TBINMAG2.def",
+					"x" : 1,
+					"y" : 101,
+					"border" : "TOIMAG2A.png",
+					"area" : "TZIMAG2A.png"
+				},
+				"mageGuild3" : {
+					"animation" : "TBINMAG3.def",
+					"x" : 1,
+					"y" : 83,
+					"border" : "TOIMAG3A.png",
+					"area" : "TZIMAG3A.png"
+				},
+				"mageGuild4" : {
+					"animation" : "TBINMAG4.def",
+					"x" : 1,
+					"y" : 56,
+					"border" : "TOIMAG4A.png",
+					"area" : "TZIMAG4A.png"
+				},
+				"mageGuild5" : {
+					"animation" : "TBINMAG5.def",
+					"x" : 1,
+					"y" : 35,
+					"border" : "TOIMAG5A.png",
+					"area" : "TZIMAG5A.png"
+				},
+				"tavern" : {
+					"animation" : "TBINTVRN.def",
+					"x" : 601,
+					"y" : 219,
+					"z" : 1,
+					"border" : "TOITAV.png",
+					"area" : "TZITAV.png"
+				},
+				"fort" : {
+					"animation" : "TBINCSTL.def",
+					"x" : 328,
+					"y" : 44,
+					"border" : "TOICAS2A.png",
+					"area" : "TZICAS2A.png"
+				},
+				"citadel" : {
+					"animation" : "TBINCAS2.def",
+					"x" : 328,
+					"y" : 44,
+					"border" : "TOICAS1A.png",
+					"area" : "TZICAS1A.png"
+				},
+				"castle" : {
+					"animation" : "TBINCAS3.def",
+					"x" : 328,
+					"y" : 18,
+					"border" : "TOICAS3A.png",
+					"area" : "TZICAS3A.png"
+				},
+				"villageHall" : {
+					"animation" : "TBINHALL.def",
+					"x" : 574,
+					"y" : 174,
+					"border" : "TOIHAL1.png",
+					"area" : "TZIHAL1.png"
+				},
+				"townHall" : {
+					"animation" : "TBINHAL2.def",
+					"x" : 574,
+					"y" : 174,
+					"border" : "TOIHAL2.png",
+					"area" : "TZIHAL2.png"
+				},
+				"cityHall" : {
+					"animation" : "TBINHAL3.def",
+					"x" : 574,
+					"y" : 174,
+					"border" : "TOIHAL3.png",
+					"area" : "TZIHAL3.png"
+				},
+				"capitol" : {
+					"animation" : "TBINHAL4.def",
+					"x" : 574,
+					"y" : 131,
+					"border" : "TOIHAL4.png",
+					"area" : "TZIHAL4.png"
+				},
+				"marketplace" : {
+					"animation" : "TBINMARK.def",
+					"x" : 145,
+					"y" : 301,
+					"z" : 4,
+					"border" : "TOIMAR1.png",
+					"area" : "TZIMAR1.png"
+				},
+				"resourceSilo" : {
+					"animation" : "TBINSILO.def",
+					"x" : 227,
+					"y" : 337,
+					"z" : 5,
+					"border" : "TOIMAR2.png",
+					"area" : "TZIMAR2.png"
+				},
+				"blacksmith" : {
+					"animation" : "TBINBLAK.def",
+					"x" : 0,
+					"y" : 253,
+					"z" : 1,
+					"border" : "TOIBLKA.png",
+					"area" : "TZIBLKA.png"
+				},
+				"horde1" : {
+					"animation" : "TBINHRD1.def",
+					"x" : 98,
+					"y" : 256,
+					"border" : "TOIMP1HA.png",
+					"area" : "TZIMP1HA.png",
+					"hidden" : true
+				},
+				"horde1Upgr" : {
+					"animation" : "TBINHRD2.def",
+					"x" : 98,
+					"y" : 221,
+					"border" : "TOIMP2HA.png",
+					"area" : "TZIMP2HA.png",
+					"hidden" : true,
+					"builds" : "horde1"
+				},
+				"special2" : {
+					"animation" : "TBINEXT0.def",
+					"x" : 167,
+					"y" : 0,
+					"z" : -1,
+					"border" : "TOICAB1A.png",
+					"area" : "TZICAB1A.png"
+				},
+				"special3" : {
+					"animation" : "TBINEXT1.def",
+					"x" : 509,
+					"y" : 174,
+					"z" : 2,
+					"border" : "TOICASGA.png",
+					"area" : "TZICASGA.png"
+				},
+				"special4" : {
+					"animation" : "TBINEXT2.def",
+					"x" : 123,
+					"y" : 104,
+					"border" : "TOIPAIN.png",
+					"area" : "TZIPAIN.png"
+				},
+				"horde2" : {
+					"animation" : "TBINHRD3.def",
+					"x" : 648,
+					"y" : 301,
+					"border" : "TOIHND1H.png",
+					"area" : "TZIHND1H.png",
+					"hidden" : true
+				},
+				"horde2Upgr" : {
+					"animation" : "TBINHRD4.def",
+					"x" : 641,
+					"y" : 273,
+					"border" : "TOIHND2H.png",
+					"area" : "TZIHND2H.png",
+					"hidden" : true,
+					"builds" : "horde2"
+				},
+				"grail" : {
+					"animation" : "TBINHOLY.def",
+					"x" : 520,
+					"y" : 10,
+					"z" : -1,
+					"border" : "TOIHOLY.png",
+					"area" : "TZIHOLY.png"
+				},
+				"dwellingLvl1" : {
+					"animation" : "TBINDW_0.def",
+					"x" : 98,
+					"y" : 256,
+					"border" : "TOIMP1A.png",
+					"area" : "TZIMP1A.png"
+				},
+				"dwellingLvl2" : {
+					"animation" : "TBINDW_1.def",
+					"x" : 475,
+					"y" : 248,
+					"z" : 4,
+					"border" : "TOIGOG1A.png",
+					"area" : "TZIGOG1A.png"
+				},
+				"dwellingLvl3" : {
+					"animation" : "TBINDW_2.def",
+					"x" : 681,
+					"y" : 325,
+					"border" : "TOIHND1.png",
+					"area" : "TZIHND1.png"
+				},
+				"dwellingLvl4" : {
+					"animation" : "TBINDW_3.def",
+					"x" : 291,
+					"y" : 204,
+					"z" : 2,
+					"border" : "TOIDMN1.png",
+					"area" : "TZIDMN1.png"
+				},
+				"dwellingLvl5" : {
+					"animation" : "TBINDW_4.def",
+					"x" : 249,
+					"y" : 296,
+					"z" : 3,
+					"border" : "TOIPIT1.png",
+					"area" : "TZIPIT1.png"
+				},
+				"dwellingLvl6" : {
+					"animation" : "TBINDW_5.def",
+					"x" : 300,
+					"y" : 350,
+					"z" : 5,
+					"border" : "TOIEFR1.png",
+					"area" : "TZIEFR1.png"
+				},
+				"dwellingLvl7" : {
+					"animation" : "TBINDW_6.def",
+					"x" : 192,
+					"y" : 153,
+					"z" : -1,
+					"border" : "TOIDVL1.png",
+					"area" : "TZIDVL1.png"
+				},
+				"dwellingUpLvl1" : {
+					"animation" : "TBINUP_0.def",
+					"x" : 98,
+					"y" : 221,
+					"border" : "TOIMP2A.png",
+					"area" : "TZIMP2A.png"
+				},
+				"dwellingUpLvl2" : {
+					"animation" : "TBINUP_1.def",
+					"x" : 475,
+					"y" : 212,
+					"z" : 4,
+					"border" : "TOIGOG2A.png",
+					"area" : "TZIGOG2A.png"
+				},
+				"dwellingUpLvl3" : {
+					"animation" : "TBINUP_2.def",
+					"x" : 655,
+					"y" : 273,
+					"border" : "TOIHND2.png",
+					"area" : "TZIHND2.png"
+				},
+				"dwellingUpLvl4" : {
+					"animation" : "TBINUP_3.def",
+					"x" : 292,
+					"y" : 197,
+					"z" : 2,
+					"border" : "TOIDMN2.png",
+					"area" : "TZIDMN2.png"
+				},
+				"dwellingUpLvl5" : {
+					"animation" : "TBINUP_4.def",
+					"x" : 250,
+					"y" : 244,
+					"z" : 3,
+					"border" : "TOIPIT2.png",
+					"area" : "TZIPIT2.png"
+				},
+				"dwellingUpLvl6" : {
+					"animation" : "TBINUP_5.def",
+					"x" : 300,
+					"y" : 282,
+					"z" : 5,
+					"border" : "TOIEFR2.png",
+					"area" : "TZIEFR2.png"
+				},
+				"dwellingUpLvl7" : {
+					"animation" : "TBINUP_6.def",
+					"x" : 192,
+					"y" : 105,
+					"z" : -1,
+					"border" : "TOIDVL2.png",
+					"area" : "TZIDVL2.png"
+				}
 			}
 		}
 	}

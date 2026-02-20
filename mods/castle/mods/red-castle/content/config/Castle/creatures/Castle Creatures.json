@@ -1,76 +1,60 @@
 {
-	"core:pikeman" :
-	{
-		"graphics" :
-		{
-			"animation": "Castle/creatures/battle/CPKMAN.def",
-			"map": "Castle/creatures/map/AVWPIKE.def",
+	"core:pikeman" : {
+		"graphics" : {
+			"animation" : "Castle/creatures/battle/CPKMAN.def",
+			"map" : "Castle/creatures/map/AVWPIKE.def",
 			"iconSmall" : "Castle/creatures/iconsSmall/PKMANS.png",
 			"iconLarge" : "Castle/creatures/iconsBig/PKMANB.png"
 		}
 	},
-	"core:halberdier" :
-	{
-		"graphics" :
-		{
-			"animation": "Castle/creatures/battle/CHALBD.def",
-			"map": "Castle/creatures/map/AVWPIKX.def",
+	"core:halberdier" : {
+		"graphics" : {
+			"animation" : "Castle/creatures/battle/CHALBD.def",
+			"map" : "Castle/creatures/map/AVWPIKX.def",
 			"iconSmall" : "Castle/creatures/iconsSmall/HALBDS.png",
 			"iconLarge" : "Castle/creatures/iconsBig/HALBDB.png"
 		}
 	},
-	"core:marksman" :
-	{
-		"graphics" :
-		{
-			"animation": "Castle/creatures/battle/CHCBOW.def",
-			"map": "Castle/creatures/map/Avwhcrs.def",
+	"core:marksman" : {
+		"graphics" : {
+			"animation" : "Castle/creatures/battle/CHCBOW.def",
+			"map" : "Castle/creatures/map/Avwhcrs.def",
 			"iconSmall" : "Castle/creatures/iconsSmall/MARKSS.png",
 			"iconLarge" : "Castle/creatures/iconsBig/MARKSB.png"
 		}
 	},
-	"core:royalGriffin" :
-	{
-		"graphics" :
-		{
-			"animation": "Castle/creatures/battle/CGRIF.def",
+	"core:royalGriffin" : {
+		"graphics" : {
+			"animation" : "Castle/creatures/battle/CGRIF.def",
 			"iconSmall" : "Castle/creatures/iconsSmall/RGIFFS.png",
 			"iconLarge" : "Castle/creatures/iconsBig/RGIFFB.png"
 		}
 	},
-	"core:crusader" :
-	{
-		"graphics" :
-		{
-			"animation": "Castle/creatures/battle/Ccrusd.def",
+	"core:crusader" : {
+		"graphics" : {
+			"animation" : "Castle/creatures/battle/Ccrusd.def",
 			"iconSmall" : "Castle/creatures/iconsSmall/CRUSDS.png",
 			"iconLarge" : "Castle/creatures/iconsBig/CRUSDB.png"
 		}
 	},
-	"core:zealot" :
-	{
-		"graphics" :
-		{
-			"animation": "Castle/creatures/battle/Zealot.def",
+	"core:zealot" : {
+		"graphics" : {
+			"animation" : "Castle/creatures/battle/Zealot.def",
 			"iconSmall" : "Castle/creatures/iconsSmall/ZEALOTS.png",
 			"iconLarge" : "Castle/creatures/iconsBig/ZEALOTB.png"
 		}
 	},
-	"core:champion" :
-	{
-		"graphics" :
-		{
-			"animation": "Castle/creatures/battle/Cchamp.def",
-			"map": "Castle/creatures/map/Avwcvlx0.def",
+	"core:champion" : {
+		"graphics" : {
+			"animation" : "Castle/creatures/battle/Cchamp.def",
+			"map" : "Castle/creatures/map/Avwcvlx0.def",
 			"iconSmall" : "Castle/creatures/iconsSmall/CHAMPS.png",
 			"iconLarge" : "Castle/creatures/iconsBig/CHAMPB.png"
 		}
 	},
-	"core:archangel" :
-	{
-		"graphics" :
-		{
-			"animation": "Castle/creatures/battle/Archangel.def",
+	"core:archangel" : {
+		"graphics" : {
+			"animation" : "Castle/creatures/battle/Archangel.def",
 			"iconSmall" : "Castle/creatures/iconsSmall/ARCHANGELS.png",
 			"iconLarge" : "Castle/creatures/iconsBig/ARCHANGELB.png"
 		}

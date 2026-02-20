@@ -1,40 +1,53 @@
 {
-    "core:castle" : 
-    { 
-        "creatureBackground" : 
-        { 
-            "120px" : "castle/creature-bg-120px.png", 
-            "130px" : "castle/creature-bg-130px.png"
-        }, 
-		"nativeTerrain": "snow",
-        "town" : 
-        { 
-        "buildingsIcons": "castle/town-hall.def",     
-        "guildWindow": "castle/town-screen/mage-guild.png", 
-        "townBackground": "castle/town-screen/background.png", 
-        "musicTheme" : [ "music/factions/Whispers_of_Winter" ],
-		"mapObject" : {
-			"templates" : 
-            {
-				"capitol" : { "animation" : "castle/adventure-map/town/town-capitol.def" },
-				"castle" :  { "animation" : "castle/adventure-map/town/town-castle.def" },
-				"village" :  { "animation" : "castle/adventure-map/town/town-village.def" }
-            }
+	"core:castle" : {
+		"creatureBackground" : {
+			"120px" : "castle/creature-bg-120px.png",
+			"130px" : "castle/creature-bg-130px.png"
 		},
-          
-        "icons" : 
-            { 
-				"village" : 
-		{
-			"normal" : {"small" : "castle/icons/hall-small.png", "large" : "castle/icons/hall-big.png" },
-			"built"  : {"small" : "castle/icons/hall-builded-small.png", "large" : "castle/icons/hall-builded-big.png" }
-		},
-                "fort" :  
-                { 
-            "normal" : {"small" : "castle/icons/fort-small.png", "large" : "castle/icons/fort-big.png" }, 
-            "built"  : {"small" : "castle/icons/fort-builded-small.png", "large" : "castle/icons/fort-builded-big.png" } 
-                }
-            }            
-        }
-    }     
-} 
+		"nativeTerrain" : "snow",
+		"town" : {
+			"buildingsIcons" : "castle/town-hall.def",
+			"guildWindow" : "castle/town-screen/mage-guild.png",
+			"townBackground" : "castle/town-screen/background.png",
+			"musicTheme" : [
+				"music/factions/Whispers_of_Winter"
+			],
+			"mapObject" : {
+				"templates" : {
+					"capitol" : {
+						"animation" : "castle/adventure-map/town/town-capitol.def"
+					},
+					"castle" : {
+						"animation" : "castle/adventure-map/town/town-castle.def"
+					},
+					"village" : {
+						"animation" : "castle/adventure-map/town/town-village.def"
+					}
+				}
+			},
+
+			"icons" : {
+				"village" : {
+					"normal" : {
+						"small" : "castle/icons/hall-small.png",
+						"large" : "castle/icons/hall-big.png"
+					},
+					"built" : {
+						"small" : "castle/icons/hall-builded-small.png",
+						"large" : "castle/icons/hall-builded-big.png"
+					}
+				},
+				"fort" : {
+					"normal" : {
+						"small" : "castle/icons/fort-small.png",
+						"large" : "castle/icons/fort-big.png"
+					},
+					"built" : {
+						"small" : "castle/icons/fort-builded-small.png",
+						"large" : "castle/icons/fort-builded-big.png"
+					}
+				}
+			}
+		}
+	}
+}

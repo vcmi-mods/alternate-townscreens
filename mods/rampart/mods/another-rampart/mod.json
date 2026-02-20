@@ -8,8 +8,7 @@
 	"modType" : "Graphical",
 	"contact" : "unknown",
 	"keepDisabled" : true,
-	"conflicts" :
-	[
+	"conflicts" : [
 		"alternate-townscreens.rampart.autumn-rampart",
 		"alternate-townscreens.mirror-towns.rampart",
 		"lotrd-townscreens.rampart"
@@ -18,17 +17,18 @@
 		"hota.heroes3datapatch",
 		"hota.newgraphics"
 	],
-	"compatibility" :
-	{
+	"compatibility" : {
 		"min" : "1.0.0"
 	},
-	"changelog" :
-	{
-		"1.1"   : [ "Renamed folders" ],
-		"1.0"   : [ "Initial release" ]
+	"changelog" : {
+		"1.1" : [
+			"Renamed folders"
+		],
+		"1.0" : [
+			"Initial release"
+		]
 	},
-	"factions" :
-	[
+	"factions" : [
 		"config/ramp-pres/town.json"
 	],
 	"czech" : {
