@@ -1,0 +1,27 @@
+{
+	"name" : "Alternative town screens",
+	"description" : "A collection of various townscreens mods",
+	"author" : "",
+	"version" : "1.0.3",
+	"modType" : "Graphical",
+	"contact" : "",
+	"changelog" : {
+		"1.0.3" : [
+			"Fixed Sand tower config",
+			"Converted BMPs to PNGs"
+		],
+		"1.0.2" : [
+			"Removed changed creatures attiributes"
+		],
+		"1.0.1" : [
+			"Small fixes"
+		],
+		"1.0.0" : [
+			"Initial release"
+		]
+	},
+	"czech" : {
+		"name" : "Alternativní vzhledy měst",
+		"description" : "Kolekce alternativních vzhledů měst"
+	}
+}

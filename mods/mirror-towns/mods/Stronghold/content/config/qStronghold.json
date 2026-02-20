@@ -1,0 +1,282 @@
+{
+	"core:stronghold" : {
+		"town" : {
+			"structures" : {
+				"extraAnimation" : {
+					"animation" : "TBSTEXT3.def",
+					"x" : 743,
+					"y" : 20
+				},
+				"mageGuild1" : {
+					"animation" : "TBSTMAGE.def",
+					"x" : 245,
+					"y" : 67,
+					"z" : -1,
+					"border" : "TOSMAG1.png",
+					"area" : "TZSMAG1.png"
+				},
+				"mageGuild2" : {
+					"animation" : "TBSTMAG2.def",
+					"x" : 246,
+					"y" : 37,
+					"z" : -1,
+					"border" : "TOSMAG2.png",
+					"area" : "TZSMAG2.png"
+				},
+				"mageGuild3" : {
+					"animation" : "TBSTMAG3.def",
+					"x" : 246,
+					"y" : 1,
+					"z" : -1,
+					"border" : "TOSMAG3.png",
+					"area" : "TZSMAG3.png"
+				},
+				"tavern" : {
+					"animation" : "TBSTTVRN.def",
+					"x" : 474,
+					"y" : 280,
+					"z" : 2,
+					"border" : "TOSTAV.png",
+					"area" : "TZSTAV.png"
+				},
+				"fort" : {
+					"animation" : "TBSTCSTL.def",
+					"x" : 190,
+					"y" : 148,
+					"z" : -1,
+					"border" : "TOSCA1.png",
+					"area" : "TZSCA1.png"
+				},
+				"citadel" : {
+					"animation" : "TBSTCAS2.def",
+					"x" : 190,
+					"y" : 114,
+					"z" : -1,
+					"border" : "TOSCA2.png",
+					"area" : "TZSCA2.png"
+				},
+				"castle" : {
+					"animation" : "TBSTCAS3.def",
+					"x" : 188,
+					"y" : 114,
+					"z" : -1,
+					"border" : "TOSCA3.png",
+					"area" : "TZSCA3.png"
+				},
+				"villageHall" : {
+					"animation" : "TBSTHALL.def",
+					"x" : 552,
+					"y" : 259,
+					"border" : "TOSHAL1A.png",
+					"area" : "TZSHAL1A.png"
+				},
+				"townHall" : {
+					"animation" : "TBSTHAL2.def",
+					"x" : 552,
+					"y" : 225,
+					"border" : "TOSHAL2A.png",
+					"area" : "TZSHAL2A.png"
+				},
+				"cityHall" : {
+					"animation" : "TBSTHAL3.def",
+					"x" : 552,
+					"y" : 201,
+					"border" : "TOSHAL3A.png",
+					"area" : "TZSHAL3A.png"
+				},
+				"capitol" : {
+					"animation" : "TBSTHAL4.def",
+					"x" : 552,
+					"y" : 148,
+					"border" : "TOSHAL4A.png",
+					"area" : "TZSHAL4A.png"
+				},
+				"marketplace" : {
+					"animation" : "TBSTMARK.def",
+					"x" : 207,
+					"y" : 308,
+					"z" : 1,
+					"border" : "TOSMRK1.png",
+					"area" : "TZSMRK1.png"
+				},
+				"resourceSilo" : {
+					"animation" : "TBSTSILO.def",
+					"x" : 311,
+					"y" : 248,
+					"z" : 1,
+					"border" : "TOSMRK2.png",
+					"area" : "TZSMRK2.png"
+				},
+				"blacksmith" : {
+					"animation" : "TBSTBLAK.def",
+					"x" : 16,
+					"y" : 286,
+					"border" : "TOSBLK1.png",
+					"area" : "TZSBLK1.png"
+				},
+				"special1" : {
+					"animation" : "TBSTSPEC.def",
+					"x" : 164,
+					"y" : 229,
+					"border" : "TOSCA1EA.png",
+					"area" : "TZSCA1EA.png"
+				},
+				"horde1" : {
+					"animation" : "TBSTHRD1.def",
+					"x" : 295,
+					"y" : 239,
+					"border" : "TOSGOB1H.png",
+					"area" : "TZSGOB1H.png",
+					"hidden" : true
+				},
+				"horde1Upgr" : {
+					"animation" : "TBSTHRD2.def",
+					"x" : 295,
+					"y" : 220,
+					"border" : "TOSGOB2H.png",
+					"area" : "TZSGOB2H.png",
+					"hidden" : true,
+					"builds" : "horde1"
+				},
+				"special2" : {
+					"animation" : "TBSTEXT0.def",
+					"x" : 254,
+					"y" : 282,
+					"z" : 3,
+					"border" : "TOSMRK1C.png",
+					"area" : "TZSMRK1C.png"
+				},
+				"special3" : {
+					"animation" : "TBSTEXT1.def",
+					"x" : 120,
+					"y" : 286,
+					"z" : 1,
+					"border" : "TOSBLK2.png",
+					"area" : "TZSBLK2.png"
+				},
+				"special4" : {
+					"animation" : "TBSTEXT2.def",
+					"x" : 407,
+					"y" : 13,
+					"z" : -1,
+					"border" : "TOSVAH.png",
+					"area" : "TZSVAH.png"
+				},
+				"grail" : {
+					"animation" : "TBSTHOLY.def",
+					"x" : 381,
+					"y" : 105,
+					"z" : 2,
+					"border" : "TOSHOLYA.png",
+					"area" : "TZSHOLYA.png"
+				},
+				"dwellingLvl1" : {
+					"animation" : "TBSTDW_0.def",
+					"x" : 295,
+					"y" : 239,
+					"border" : "TOSGOB1.png",
+					"area" : "TZSGOB1.png"
+				},
+				"dwellingLvl2" : {
+					"animation" : "TBSTDW_1.def",
+					"x" : 378,
+					"y" : 246,
+					"z" : 1,
+					"border" : "TOSWOL1.png",
+					"area" : "TZSWOL1.png"
+				},
+				"dwellingLvl3" : {
+					"animation" : "TBSTDW_2.def",
+					"x" : 142,
+					"y" : 232,
+					"z" : 2,
+					"border" : "TOSORC1.png",
+					"area" : "TZSORC1.png"
+				},
+				"dwellingLvl4" : {
+					"animation" : "TBSTDW_3.def",
+					"x" : 491,
+					"y" : 204,
+					"border" : "TOSOGR1.png",
+					"area" : "TZSOGR1.png"
+				},
+				"dwellingLvl5" : {
+					"animation" : "TBSTDW_4.def",
+					"x" : 519,
+					"y" : 30,
+					"z" : -1,
+					"border" : "TOSROC1.png",
+					"area" : "TZSROC1.png"
+				},
+				"dwellingLvl6" : {
+					"animation" : "TBSTDW_5.def",
+					"x" : 0,
+					"y" : 160,
+					"z" : -2,
+					"border" : "TOSCYC1.png",
+					"area" : "TZSCYC1.png"
+				},
+				"dwellingLvl7" : {
+					"animation" : "TBSTDW_6.def",
+					"x" : 20,
+					"y" : 0,
+					"border" : "TOSBEH1A.png",
+					"area" : "TZSBEH1A.png"
+				},
+				"dwellingUpLvl1" : {
+					"animation" : "TBSTUP_0.def",
+					"x" : 295,
+					"y" : 220,
+					"border" : "TOSGOB2.png",
+					"area" : "TZSGOB2.png"
+				},
+				"dwellingUpLvl2" : {
+					"animation" : "TBSTUP_1.def",
+					"x" : 378,
+					"y" : 225,
+					"z" : 1,
+					"border" : "TOSWOL2.png",
+					"area" : "TZSWOL2.png"
+				},
+				"dwellingUpLvl3" : {
+					"animation" : "TBSTUP_2.def",
+					"x" : 142,
+					"y" : 158,
+					"z" : 2,
+					"border" : "TOSORC2.png",
+					"area" : "TZSORC2.png"
+				},
+				"dwellingUpLvl4" : {
+					"animation" : "TBSTUP_3.def",
+					"x" : 491,
+					"y" : 137,
+					"border" : "TOSOGR2.png",
+					"area" : "TZSOGR2.png"
+				},
+				"dwellingUpLvl5" : {
+					"animation" : "TBSTUP_4.def",
+					"x" : 519,
+					"y" : 15,
+					"z" : -1,
+					"border" : "TOSROC2.png",
+					"area" : "TZSROC2.png"
+				},
+				"dwellingUpLvl6" : {
+					"animation" : "TBSTUP_5.def",
+					"x" : 0,
+					"y" : 93,
+					"z" : -2,
+					"border" : "TOSCYC2A.png",
+					"area" : "TZSCYC2A.png"
+				},
+				"dwellingUpLvl7" : {
+					"animation" : "TBSTUP_6.def",
+					"x" : 20,
+					"y" : 0,
+					"border" : "TOSBEH2A.png",
+					"area" : "TZSBEH2A.png"
+				}
+			}
+		}
+	}
+}

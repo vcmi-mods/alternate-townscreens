@@ -1,0 +1,56 @@
+{
+	"core:castle" : {
+		"creatureBackground" : {
+			"120px" : "castle/creature-bg-120px.png",
+			"130px" : "castle/creature-bg-130px.png"
+		},
+		"town" : {
+			"buildingsIcons" : "castle/Hallcstl.DEF",
+			"guildWindow" : "TPMAGECS.png",
+			"townBackground" : "TBCSBACK.png",
+
+			"icons" : {
+				"village" : {
+					"normal" : {
+						"small" : "castle/icons/hall-small.png",
+						"large" : "castle/icons/hall-big.png"
+					},
+					"built" : {
+						"small" : "castle/icons/hall-builded-small.png",
+						"large" : "castle/icons/hall-builded-big.png"
+					}
+				},
+				"fort" : {
+					"normal" : {
+						"small" : "castle/icons/fort-small.png",
+						"large" : "castle/icons/fort-big.png"
+					},
+					"built" : {
+						"small" : "castle/icons/fort-builded-small.png",
+						"large" : "castle/icons/fort-builded-big.png"
+					}
+				}
+			},
+
+			"mapObject" : {
+				"templates" : {
+					"capitol" : {
+						"animation" : "castle/adventure map/Capitol.def"
+					},
+					"castle" : {
+						"animation" : "castle/adventure map/Castle.def"
+					},
+					"citadel" : {
+						"animation" : "AVCcasx0.def"
+					},
+					"fort" : {
+						"animation" : "AVCcasx0.def"
+					},
+					"village" : {
+						"animation" : "AVCCAST0.DEF"
+					}
+				}
+			}
+		}
+	}
+}
