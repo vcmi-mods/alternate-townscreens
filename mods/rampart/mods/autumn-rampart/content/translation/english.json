@@ -1,0 +1,12 @@
+{
+	"building.core.rampart.dwellingLvl3.description" : "The Homestead allows you to recruit Wood Elves.",
+	"building.core.rampart.dwellingLvl3.name" : "Homestead",
+	"building.core.rampart.dwellingLvl4.description" : "The Crystal Column allows you to recruit Pegasi.",
+	"building.core.rampart.dwellingLvl4.name" : "Crystal Column",
+	"building.core.rampart.dwellingUpLvl3.description" : "The Upg. Homestead allows you to recruit Grand Elves.",
+	"building.core.rampart.dwellingUpLvl3.name" : "Homestead",
+	"building.core.rampart.dwellingUpLvl4.description" : "The Upg. Crystal Column allows you to recruit Silver Pegasi.",
+	"building.core.rampart.dwellingUpLvl4.name" : "Crystal Column",
+	"building.core.rampart.special2.description" : "The Fountain of Fortune increases the luck of the garrison hero by +2 when defending against a siege.",
+	"building.core.rampart.special2.name" : "Fountain of Fortune"
+}
