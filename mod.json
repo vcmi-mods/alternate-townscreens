@@ -2,10 +2,13 @@
 	"name" : "Alternative town screens",
 	"description" : "A collection of various townscreens mods",
 	"author" : "",
-	"version" : "1.0.3",
+	"version" : "1.0.4",
 	"modType" : "Graphical",
 	"contact" : "",
 	"changelog" : {
+		"1.0.4" : [
+			"Added missing creature backgrounds for Autumn Rampart"
+		],
 		"1.0.3" : [
 			"Fixed Sand tower config",
 			"Converted BMPs to PNGs"
