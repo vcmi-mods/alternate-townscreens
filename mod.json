@@ -25,6 +25,9 @@
 	},
 	"czech" : {
 		"name" : "Alternativní vzhledy měst",
-		"description" : "Kolekce alternativních vzhledů měst"
+		"description" : "Kolekce alternativních vzhledů měst",
+		"translations" : [
+			"translation/czech.json"
+		]
 	}
 }
