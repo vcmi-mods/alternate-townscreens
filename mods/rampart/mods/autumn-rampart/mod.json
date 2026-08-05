@@ -41,5 +41,10 @@
 	"czech" : {
 		"name" : "Podzimní Bašta",
 		"description" : "Tato modifikace přenese vzhled Bašty do podzimního obdodí"
+	},
+	"polish" : {
+		"translations" : [
+			"translation/polish.json"
+		]
 	}
 }
