@@ -1,1 +1,12 @@
-{}
+{
+    "building.core.rampart.dwellingLvl3.description": "Gospodarstwo pozwala rekrutować {elfy leśne}.",
+    "building.core.rampart.dwellingLvl3.name": "Gospodarstwo",
+    "building.core.rampart.dwellingLvl4.description": "Kryształowa kolumna pozwala rekrutować {pegazy}.",
+    "building.core.rampart.dwellingLvl4.name": "Kryształowa kolumna",
+    "building.core.rampart.dwellingUpLvl3.description": "Ulepszone gospodarstwo pozwala rekrutować {wysokie elfy}.",
+    "building.core.rampart.dwellingUpLvl3.name": "Gospodarstwo",
+    "building.core.rampart.dwellingUpLvl4.description": "Ulepszona kryształowa kolumna pozwala rekrutować {srebrne pegazy}.",
+    "building.core.rampart.dwellingUpLvl4.name": "Kryształowa kolumna",
+    "building.core.rampart.special2.description": "{Fontanna szczęścia} podczas oblężenia zwiększa {szczęście} bohatera dowodzącego garnizonem o {+2}.",
+    "building.core.rampart.special2.name": "Fontanna szczęścia"
+}
